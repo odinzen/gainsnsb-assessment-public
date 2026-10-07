@@ -1,0 +1,36 @@
+# DIGITIZED from Liao et al. (1982) Fig. 14 (p. 165), liquid-solid tie-lines at 400 degC.
+# Figure source: Liao, Su, Tung & Brebrick, Calphad 6 (1982) 141-169, doi:10.1016/0364-5916(82)90009-8
+# Experimental points (filled triangles) from Miki, Segawa, Otsubo, Shirahata & Kiyibayashi [sic] 1975, Proc. 5th Int. Symp. GaAs and Related Compounds, Inst. Phys. Conf. Ser. 24 (Liao ref. 32). Only symbols were digitized,
+#   not Liao's solid curve or the dotted/dashed ref. 8 curve.
+# x axis of the figure: x_Ga = atom fraction Ga in the LIQUID. y axis: mole fraction GaSb in the (Ga,In)Sb solid.
+# The figure does NOT give the liquid Sb content, so x_In_liq and x_Sb_liq are left blank. They must be
+#   taken from the original paper; they are not derivable from this figure without a liquidus model.
+# Liao gives the axis as 'atom fraction Ga in the liquid' (overall atom fraction, not Ga/(Ga+In)).
+# Columns: source; T_C; x_liq_axis = the figure's x-axis quantity; x_In_liq, x_Sb_liq (blank);
+#   y_GaSb_solid; y_InSb_solid = 1 - y_GaSb_solid; px, py = symbol centre (300 dpi scan); note.
+# Symbol centre = bounding-box centre of the filled triangle (height about 36 px), placed from the apex or
+#   base edge, whichever is not hidden by the calculated curve.
+# Calibration: affine least squares on axis ticks (both opposite edges for each axis).
+#   x residual rms 0.0004, max 0.0007; y residual rms 0.0010, max 0.0021.
+#   Scale about 134 px per 0.1 (x) and 140 px per 0.1 (y).
+# Digitizing uncertainty: about +/-0.004 in both coordinates (+/-0.006 where two triangles overlap).
+source,T_C,x_liq_axis,x_In_liq,x_Sb_liq,y_GaSb_solid,y_InSb_solid,px,py,note
+"Miki, Segawa, Otsubo, Shirahata & Kiyibayashi [sic] 1975, Proc. 5th Int. Symp. GaAs and Related Compounds, Inst. Phys. Conf. Ser. 24 (Liao ref. 32)",400,0.0342,,,0.2407,0.7593,691.75,1540.5,
+"Miki, Segawa, Otsubo, Shirahata & Kiyibayashi [sic] 1975, Proc. 5th Int. Symp. GaAs and Related Compounds, Inst. Phys. Conf. Ser. 24 (Liao ref. 32)",400,0.0399,,,0.2711,0.7289,699.0,1498.0,
+"Miki, Segawa, Otsubo, Shirahata & Kiyibayashi [sic] 1975, Proc. 5th Int. Symp. GaAs and Related Compounds, Inst. Phys. Conf. Ser. 24 (Liao ref. 32)",400,0.0545,,,0.3054,0.6946,718.25,1450.0,
+"Miki, Segawa, Otsubo, Shirahata & Kiyibayashi [sic] 1975, Proc. 5th Int. Symp. GaAs and Related Compounds, Inst. Phys. Conf. Ser. 24 (Liao ref. 32)",400,0.0695,,,0.5390,0.4610,736.0,1123.75,lower of two overlapping triangles
+"Miki, Segawa, Otsubo, Shirahata & Kiyibayashi [sic] 1975, Proc. 5th Int. Symp. GaAs and Related Compounds, Inst. Phys. Conf. Ser. 24 (Liao ref. 32)",400,0.0799,,,0.5597,0.4403,749.75,1094.75,upper of two overlapping triangles
+"Miki, Segawa, Otsubo, Shirahata & Kiyibayashi [sic] 1975, Proc. 5th Int. Symp. GaAs and Related Compounds, Inst. Phys. Conf. Ser. 24 (Liao ref. 32)",400,0.0900,,,0.6492,0.3508,762.25,969.75,
+"Miki, Segawa, Otsubo, Shirahata & Kiyibayashi [sic] 1975, Proc. 5th Int. Symp. GaAs and Related Compounds, Inst. Phys. Conf. Ser. 24 (Liao ref. 32)",400,0.0994,,,0.7180,0.2820,774.25,873.5,
+"Miki, Segawa, Otsubo, Shirahata & Kiyibayashi [sic] 1975, Proc. 5th Int. Symp. GaAs and Related Compounds, Inst. Phys. Conf. Ser. 24 (Liao ref. 32)",400,0.1504,,,0.8140,0.1860,841.5,739.0,
+"Miki, Segawa, Otsubo, Shirahata & Kiyibayashi [sic] 1975, Proc. 5th Int. Symp. GaAs and Related Compounds, Inst. Phys. Conf. Ser. 24 (Liao ref. 32)",400,0.1900,,,0.8495,0.1505,894.1,689.0,lower of two overlapping triangles
+"Miki, Segawa, Otsubo, Shirahata & Kiyibayashi [sic] 1975, Proc. 5th Int. Symp. GaAs and Related Compounds, Inst. Phys. Conf. Ser. 24 (Liao ref. 32)",400,0.1995,,,0.8783,0.1217,906.5,648.75,upper of two overlapping triangles
+"Miki, Segawa, Otsubo, Shirahata & Kiyibayashi [sic] 1975, Proc. 5th Int. Symp. GaAs and Related Compounds, Inst. Phys. Conf. Ser. 24 (Liao ref. 32)",400,0.2351,,,0.8906,0.1094,954.0,631.25,
+"Miki, Segawa, Otsubo, Shirahata & Kiyibayashi [sic] 1975, Proc. 5th Int. Symp. GaAs and Related Compounds, Inst. Phys. Conf. Ser. 24 (Liao ref. 32)",400,0.2997,,,0.8650,0.1350,1040.75,666.25,off the calculated curve
+"Miki, Segawa, Otsubo, Shirahata & Kiyibayashi [sic] 1975, Proc. 5th Int. Symp. GaAs and Related Compounds, Inst. Phys. Conf. Ser. 24 (Liao ref. 32)",400,0.3949,,,0.9289,0.0711,1167.5,576.0,
+"Miki, Segawa, Otsubo, Shirahata & Kiyibayashi [sic] 1975, Proc. 5th Int. Symp. GaAs and Related Compounds, Inst. Phys. Conf. Ser. 24 (Liao ref. 32)",400,0.4208,,,0.9094,0.0906,1202.4,603.0,
+"Miki, Segawa, Otsubo, Shirahata & Kiyibayashi [sic] 1975, Proc. 5th Int. Symp. GaAs and Related Compounds, Inst. Phys. Conf. Ser. 24 (Liao ref. 32)",400,0.5807,,,0.9481,0.0519,1416.0,547.25,
+"Miki, Segawa, Otsubo, Shirahata & Kiyibayashi [sic] 1975, Proc. 5th Int. Symp. GaAs and Related Compounds, Inst. Phys. Conf. Ser. 24 (Liao ref. 32)",400,0.5995,,,0.9587,0.0413,1441.0,532.25,upper of two triangles at the same x
+"Miki, Segawa, Otsubo, Shirahata & Kiyibayashi [sic] 1975, Proc. 5th Int. Symp. GaAs and Related Compounds, Inst. Phys. Conf. Ser. 24 (Liao ref. 32)",400,0.5998,,,0.9362,0.0638,1441.6,563.75,lower of two triangles at the same x
+"Miki, Segawa, Otsubo, Shirahata & Kiyibayashi [sic] 1975, Proc. 5th Int. Symp. GaAs and Related Compounds, Inst. Phys. Conf. Ser. 24 (Liao ref. 32)",400,0.6989,,,0.9591,0.0409,1574.0,530.75,
+"Miki, Segawa, Otsubo, Shirahata & Kiyibayashi [sic] 1975, Proc. 5th Int. Symp. GaAs and Related Compounds, Inst. Phys. Conf. Ser. 24 (Liao ref. 32)",400,0.7997,,,0.9803,0.0197,1708.75,500.0,

@@ -1,0 +1,42 @@
+# DIGITIZED from Liao et al. (1982) Fig. 12 (p. 163), GaSb-InSb pseudobinary liquidus and solidus.
+# Figure source: Liao, Su, Tung & Brebrick, Calphad 6 (1982) 141-169, doi:10.1016/0364-5916(82)90009-8
+# Caption: squares DTA, circles thermal analysis, triangles X-ray diffraction, all ref. 29; diamonds ref. 30.
+# Only plotted SYMBOLS were digitized. The calculated liquidus/solidus curves were not.
+# Columns: source = original data source as cited by Liao; method = per Liao caption; symbol;
+#   boundary = liquidus or solidus (the higher of a same-method pair at one x is the liquidus; triangles are
+#   XRD solid compositions); T_C in degC; x_GaSb = mole fraction GaSb on the pseudobinary;
+#   x_Ga, x_In, x_Sb = atom fractions of that pseudobinary composition (liquid for liquidus rows, solid for
+#   solidus rows); px, py = symbol centre in the 300 dpi page scan; confidence; note.
+# Calibration: affine least squares on 16 x-ticks (top and bottom edges) and 11 T-ticks (both sides).
+#   x residual rms 0.0006, max 0.0010; T residual rms 0.28 degC, max 0.54 degC.
+#   Scale: 134.5 px per 0.1 in x, 5.49 px per degC.
+# Digitizing uncertainty (symbol centring + calibration): about +/-1 degC and +/-0.004 in x_GaSb for
+#   'high' rows; +/-2 degC and +/-0.008 for 'medium' rows (overlapping or curve-obscured symbols).
+# Liao does not state how many of these points entered sigma_L and sigma_S (Table V).
+source,method,symbol,boundary,T_C,x_GaSb,x_Ga,x_In,x_Sb,px,py,confidence,note
+"Wooley & Lees 1959, J. Less-Common Metals 1, 192 (Liao ref. 29)",DTA,square,liquidus,545.7,0.1005,0.0502,0.4498,0.5000,791.5,1524.0,high,
+"Wooley & Lees 1959, J. Less-Common Metals 1, 192 (Liao ref. 29)",DTA,square,solidus,531.6,0.1013,0.0506,0.4494,0.5000,792.0,1601.0,high,
+"Wooley & Lees 1959, J. Less-Common Metals 1, 192 (Liao ref. 29)",thermal analysis,circle,liquidus,572.5,0.1993,0.0996,0.4004,0.5000,925.5,1377.0,high,
+"Wooley & Lees 1959, J. Less-Common Metals 1, 192 (Liao ref. 29)",thermal analysis,circle,solidus,535.1,0.2017,0.1009,0.3991,0.5000,927.3,1582.0,medium,overlaps a triangle; centre placed by hand
+"Wooley & Lees 1959, J. Less-Common Metals 1, 192 (Liao ref. 29)",X-ray diffraction,triangle,solidus,538.2,0.2200,0.1100,0.3900,0.5000,952.0,1565.0,medium,overlaps a circle; centre placed by hand
+"Blom & Plaskett 1971, J. Electrochem. Soc. 118, 1831 (Liao ref. 30)",(not stated by Liao),diamond,liquidus,599.8,0.2401,0.1200,0.3800,0.5000,981.5,1227.0,medium,partly under calculated liquidus; by hand
+"Wooley & Lees 1959, J. Less-Common Metals 1, 192 (Liao ref. 29)",DTA,square,liquidus,600.7,0.2995,0.1498,0.3502,0.5000,1061.5,1222.5,high,
+"Wooley & Lees 1959, J. Less-Common Metals 1, 192 (Liao ref. 29)",DTA,square,solidus,541.6,0.2994,0.1497,0.3503,0.5000,1059.0,1547.0,high,
+"Wooley & Lees 1959, J. Less-Common Metals 1, 192 (Liao ref. 29)",X-ray diffraction,triangle,solidus,546.3,0.3747,0.1874,0.3126,0.5000,1160.5,1521.0,high,centre placed by hand
+"Wooley & Lees 1959, J. Less-Common Metals 1, 192 (Liao ref. 29)",thermal analysis,circle,liquidus,621.5,0.3996,0.1998,0.3002,0.5000,1197.0,1108.5,high,
+"Wooley & Lees 1959, J. Less-Common Metals 1, 192 (Liao ref. 29)",thermal analysis,circle,solidus,549.2,0.3992,0.1996,0.3004,0.5000,1193.5,1505.5,high,touches curve; centre placed by hand
+"Wooley & Lees 1959, J. Less-Common Metals 1, 192 (Liao ref. 29)",DTA,square,liquidus,644.4,0.4970,0.2485,0.2515,0.5000,1329.0,983.0,high,
+"Wooley & Lees 1959, J. Less-Common Metals 1, 192 (Liao ref. 29)",DTA,square,solidus,561.5,0.4991,0.2496,0.2504,0.5000,1328.5,1438.0,high,
+"Wooley & Lees 1959, J. Less-Common Metals 1, 192 (Liao ref. 29)",thermal analysis,circle,liquidus,659.2,0.5977,0.2988,0.2012,0.5000,1465.0,901.5,high,
+"Wooley & Lees 1959, J. Less-Common Metals 1, 192 (Liao ref. 29)",thermal analysis,circle,solidus,571.5,0.5992,0.2996,0.2004,0.5000,1463.5,1383.0,high,
+"Wooley & Lees 1959, J. Less-Common Metals 1, 192 (Liao ref. 29)",X-ray diffraction,triangle,solidus,572.5,0.6402,0.3201,0.1799,0.5000,1518.75,1378.0,medium,lower of two overlapping triangles
+"Wooley & Lees 1959, J. Less-Common Metals 1, 192 (Liao ref. 29)",X-ray diffraction,triangle,solidus,576.6,0.6494,0.3247,0.1753,0.5000,1531.25,1355.25,medium,upper of two overlapping triangles
+"Blom & Plaskett 1971, J. Electrochem. Soc. 118, 1831 (Liao ref. 30)",(not stated by Liao),diamond,liquidus,673.2,0.6684,0.3342,0.1658,0.5000,1560.7,825.0,medium,abuts a square; centre placed by hand
+"Wooley & Lees 1959, J. Less-Common Metals 1, 192 (Liao ref. 29)",DTA,square,liquidus,674.3,0.6983,0.3492,0.1508,0.5000,1601.0,819.0,high,
+"Wooley & Lees 1959, J. Less-Common Metals 1, 192 (Liao ref. 29)",DTA,square,solidus,587.3,0.7016,0.3508,0.1492,0.5000,1602.0,1296.5,high,
+"Wooley & Lees 1959, J. Less-Common Metals 1, 192 (Liao ref. 29)",DTA,square,liquidus,686.3,0.7979,0.3990,0.1010,0.5000,1735.5,753.5,high,
+"Wooley & Lees 1959, J. Less-Common Metals 1, 192 (Liao ref. 29)",DTA,square,solidus,606.6,0.7984,0.3992,0.1008,0.5000,1733.0,1191.0,high,
+"Wooley & Lees 1959, J. Less-Common Metals 1, 192 (Liao ref. 29)",DTA,square,liquidus,699.9,0.8993,0.4497,0.0503,0.5000,1872.5,679.0,high,
+"Wooley & Lees 1959, J. Less-Common Metals 1, 192 (Liao ref. 29)",X-ray diffraction,triangle,solidus,639.7,0.8976,0.4488,0.0512,0.5000,1867.7,1009.3,high,centre placed by hand
+"Wooley & Lees 1959, J. Less-Common Metals 1, 192 (Liao ref. 29)",X-ray diffraction,triangle,solidus,669.2,0.9519,0.4760,0.0240,0.5000,1942.0,847.5,high,centre placed by hand
+"Wooley & Lees 1959, J. Less-Common Metals 1, 192 (Liao ref. 29)",DTA,square,solidus,679.3,0.9587,0.4793,0.0207,0.5000,1951.5,792.0,medium,no paired liquidus point at this x; assigned to solidus because it lies on the solidus branch

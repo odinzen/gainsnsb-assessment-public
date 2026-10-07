@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.npy
+.DS_Store
+
+# deposit the Bayesian reproducibility artifacts (override the *.npy rule above)
+!bayesian/*.npy
+*.npz
+*.log
+results/rebuild.log

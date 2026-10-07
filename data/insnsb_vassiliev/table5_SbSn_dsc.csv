@@ -1,0 +1,23 @@
+# Vassiliev, Feutelais, Sghaier, Legendre, J. Alloys Compd. 314 (2001) 198-205, doi:10.1016/S0925-8388(00)01243-3
+# Table 5, p.201. Experimental DSC results for Sb-Sn, temperatures in degC as printed.
+# Heating rate 1 degC/min. Blank = no arrest reported. Column labels T1-T4 and T_Liq are the paper's.
+# The paper does NOT assign a reaction to T1-T4 (neither in the table nor in the text); reaction_assigned is therefore left 'not stated'. See notes.md.
+x_Sb,T1_C,T2_C,T3_C,T4_C,T_liq_C,reaction_assigned
+0.1,,245.7,,,260,not stated
+0.15,,246.0,,,290,not stated
+0.2,,246.1,,,330,not stated
+0.25,242.0,246.1,325.8,,348,not stated
+0.3,,245.3,324.4,,363,not stated
+0.35,242.8,245.8,326.1,,382,not stated
+0.4,243.3,245.4,325.9,,397,not stated
+0.45,241.4,244.3,,,410,not stated
+0.5,,,323.4,,427,not stated
+0.55,,,,425.3,456,not stated
+0.6,,,,425.5,490,not stated
+0.65,,,,424.8,507,not stated
+0.7,,,,424.9,533,not stated
+0.75,,,,424.4,554,not stated
+0.8,,,,424.6,575,not stated
+0.85,,,,424.5,592,not stated
+0.9,,,,,609,not stated
+0.95,,,,,623,not stated

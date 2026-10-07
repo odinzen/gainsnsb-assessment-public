@@ -1,0 +1,12 @@
+# Vassiliev, Feutelais, Sghaier, Legendre, J. Alloys Compd. 314 (2001) 198-205, doi:10.1016/S0925-8388(00)01243-3
+# Table 4, p.200. Experimental EMF results for Sb-Sn (alloys 3-7).
+# Cell (II): (-) Sn(l) | Sn2+ in LiCl-KCl eutectic | Sn_x Sb_(1-x)(l) (+). Reference: pure Sn (liquid, all T > 641 K).
+# mu_Sn - mu_Sn(pure liq) = -2*F*E (n = 2, Sn2+ cation). This cell gives Sn, not In or Sb.
+# E = a + b*T with E in mV and T in K. a_sd and b_sd are the printed +/- values (the paper does not say whether they are 1 sigma). b is given in mV/K (printed column is b x 10^{k}, already divided out here; printed value kept in b_printed). NOTE Table 4 prints b x 10^3 (not 10^2 as in Tables 3 and 6). No +/- printed.
+# Composition column is x_Sb as printed; x_Sn = 1 - x_Sb.
+alloy_no,x_Sb,x_Sn,a_mV,b_mV_per_K,b_printed_x1e3,n_points,Tbar_K,Ebar_mV,s0sq_x1e2_mV2,sum_sq_dev_T_K2,Tmin_K,Tmax_K
+3,0.3832,0.6168,5.066,0.02036,20.36,36,711.2,19.55,0.30,65934,641,787
+4,0.4509,0.5491,7.321,0.0252,25.2,29,725.2,25.6,0.11,36331,669,787
+5,0.4803,0.5197,8.709,0.02693,26.93,26,731.2,28.4,0.18,27268,681,787
+6,0.5019,0.4981,10.389,0.02749,27.49,22,739.2,30.71,0.04,17968,697,787
+7,0.5292,0.4708,12.728,0.02821,28.21,17,749.8,33.88,0.13,9475,710,787

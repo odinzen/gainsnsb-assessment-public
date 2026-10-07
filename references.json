@@ -1,0 +1,1148 @@
+[
+ {
+  "id": "Liao",
+  "type": "article-journal",
+  "title": "Quantitative simultaneous fit to the liquidus surface and thermodynamic data for the Ga-In-Sb system using an associated solution model for the liquid",
+  "author": [
+   {
+    "family": "Liao",
+    "given": "P.-K."
+   },
+   {
+    "family": "Su",
+    "given": "C.-H."
+   },
+   {
+    "family": "Tung",
+    "given": "T."
+   },
+   {
+    "family": "Brebrick",
+    "given": "R. F."
+   }
+  ],
+  "container-title": "Calphad",
+  "volume": "6",
+  "page": "141-169",
+  "issued": {
+   "date-parts": [
+    [
+     1982
+    ]
+   ]
+  },
+  "DOI": "10.1016/0364-5916(82)90009-8",
+  "container-title-short": "Calphad"
+ },
+ {
+  "id": "Vassiliev",
+  "type": "article-journal",
+  "title": "Thermodynamic investigation in In-Sb, Sb-Sn and In-Sb-Sn liquid systems",
+  "author": [
+   {
+    "family": "Vassiliev",
+    "given": "V."
+   },
+   {
+    "family": "Feutelais",
+    "given": "Y."
+   },
+   {
+    "family": "Sghaier",
+    "given": "M."
+   },
+   {
+    "family": "Legendre",
+    "given": "B."
+   }
+  ],
+  "container-title": "Journal of Alloys and Compounds",
+  "volume": "314",
+  "page": "198-205",
+  "issued": {
+   "date-parts": [
+    [
+     2001
+    ]
+   ]
+  },
+  "DOI": "10.1016/S0925-8388(00)01243-3",
+  "container-title-short": "J. Alloys Compd."
+ },
+ {
+  "id": "Rugg-Chart",
+  "type": "article-journal",
+  "title": "A critical assessment of thermodynamic and phase diagram data for the gallium-indium system",
+  "author": [
+   {
+    "family": "Rugg",
+    "given": "B. C."
+   },
+   {
+    "family": "Chart",
+    "given": "T. G."
+   }
+  ],
+  "container-title": "Calphad",
+  "volume": "14",
+  "page": "115-123",
+  "issued": {
+   "date-parts": [
+    [
+     1990
+    ]
+   ]
+  },
+  "DOI": "10.1016/0364-5916(90)90013-P",
+  "container-title-short": "Calphad"
+ },
+ {
+  "id": "David",
+  "type": "article-journal",
+  "title": "Thermodynamic optimization of the In-Pb-Sn system based on new evaluations of the binary borders In-Pb and In-Sn",
+  "author": [
+   {
+    "family": "David",
+    "given": "N."
+   },
+   {
+    "family": "El Aissaoui",
+    "given": "K."
+   },
+   {
+    "family": "Fiorani",
+    "given": "J. M."
+   },
+   {
+    "family": "Hertz",
+    "given": "J."
+   },
+   {
+    "family": "Vilasi",
+    "given": "M."
+   }
+  ],
+  "container-title": "Thermochimica Acta",
+  "volume": "413",
+  "page": "127-137",
+  "issued": {
+   "date-parts": [
+    [
+     2004
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.tca.2003.10.020",
+  "container-title-short": "Thermochim. Acta"
+ },
+ {
+  "id": "Anderson-Ansara",
+  "type": "article-journal",
+  "title": "The Ga-Sn (gallium-tin) system",
+  "author": [
+   {
+    "family": "Anderson",
+    "given": "T. J."
+   },
+   {
+    "family": "Ansara",
+    "given": "I."
+   }
+  ],
+  "container-title": "Journal of Phase Equilibria",
+  "volume": "13",
+  "page": "181-189",
+  "issued": {
+   "date-parts": [
+    [
+     1992
+    ]
+   ]
+  },
+  "DOI": "10.1007/BF02667485",
+  "container-title-short": "J. Phase Equilib."
+ },
+ {
+  "id": "Zivkovic",
+  "type": "article-journal",
+  "title": "Thermodynamic study of Ga-Sn and Ga-Zn systems using quantitative differential thermal analysis",
+  "author": [
+   {
+    "family": "Zivkovic",
+    "given": "D."
+   },
+   {
+    "family": "Manasijevic",
+    "given": "D."
+   },
+   {
+    "family": "Zivkovic",
+    "given": "Z."
+   }
+  ],
+  "container-title": "Journal of Thermal Analysis and Calorimetry",
+  "volume": "74",
+  "page": "85-96",
+  "issued": {
+   "date-parts": [
+    [
+     2003
+    ]
+   ]
+  },
+  "DOI": "10.1023/A:1026373602352",
+  "container-title-short": "J. Therm. Anal. Calorim."
+ },
+ {
+  "id": "Katayama",
+  "type": "article-journal",
+  "author": [
+   {
+    "given": "Iwao",
+    "family": "Katayama"
+   },
+   {
+    "given": "Kazunari",
+    "family": "Maki"
+   },
+   {
+    "given": "Motohiro",
+    "family": "Nakano"
+   },
+   {
+    "given": "Takamichi",
+    "family": "Iida"
+   }
+  ],
+  "title": "Thermodynamic Activity in Liquid Ga-Sn Alloys Studied by EMF Method",
+  "container-title": "Materials Transactions, JIM",
+  "container-title-short": "Mater. Trans., JIM",
+  "volume": "37",
+  "issue": "5",
+  "page": "988-990",
+  "issued": {
+   "date-parts": [
+    [
+     1996
+    ]
+   ]
+  },
+  "DOI": "10.2320/matertrans1989.37.988"
+ },
+ {
+  "id": "Evans-Prince",
+  "type": "article-journal",
+  "title": "Thermal analysis of Ga-In-Sn system",
+  "author": [
+   {
+    "family": "Evans",
+    "given": "D. S."
+   },
+   {
+    "family": "Prince",
+    "given": "A."
+   }
+  ],
+  "container-title": "Metal Science",
+  "volume": "12",
+  "page": "411-414",
+  "issued": {
+   "date-parts": [
+    [
+     1978
+    ]
+   ]
+  },
+  "DOI": "10.1179/030634578790434025",
+  "container-title-short": "Met. Sci."
+ },
+ {
+  "id": "Otis",
+  "type": "article-journal",
+  "title": "pycalphad: CALPHAD-based Computational Thermodynamics in Python",
+  "author": [
+   {
+    "family": "Otis",
+    "given": "R."
+   },
+   {
+    "family": "Liu",
+    "given": "Z.-K."
+   }
+  ],
+  "container-title": "Journal of Open Research Software",
+  "volume": "5",
+  "page": "1",
+  "issued": {
+   "date-parts": [
+    [
+     2017
+    ]
+   ]
+  },
+  "DOI": "10.5334/jors.140",
+  "container-title-short": "J. Open Res. Softw."
+ },
+ {
+  "id": "Koh",
+  "type": "article-journal",
+  "title": "Solidification and melting phase change behavior of eutectic gallium-indium-tin",
+  "author": [
+   {
+    "family": "Koh",
+    "given": "A."
+   },
+   {
+    "family": "Hwang",
+    "given": "W."
+   },
+   {
+    "family": "Zavalij",
+    "given": "P. Y."
+   },
+   {
+    "family": "Chun",
+    "given": "S."
+   },
+   {
+    "family": "Slipher",
+    "given": "G."
+   },
+   {
+    "family": "Mrozek",
+    "given": "R."
+   }
+  ],
+  "container-title": "Materialia",
+  "volume": "8",
+  "page": "100512",
+  "issued": {
+   "date-parts": [
+    [
+     2019
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.mtla.2019.100512",
+  "container-title-short": "Materialia"
+ },
+ {
+  "id": "Dinsdale",
+  "type": "article-journal",
+  "title": "SGTE data for pure elements",
+  "author": [
+   {
+    "family": "Dinsdale",
+    "given": "A. T."
+   }
+  ],
+  "container-title": "Calphad",
+  "volume": "15",
+  "page": "317-425",
+  "issued": {
+   "date-parts": [
+    [
+     1991
+    ]
+   ]
+  },
+  "DOI": "10.1016/0364-5916(91)90030-N",
+  "container-title-short": "Calphad"
+ },
+ {
+  "id": "SGTE",
+  "type": "article-journal",
+  "title": "The SGTE collection of binary datasets",
+  "author": [
+   {
+    "family": "Hallstedt",
+    "given": "B."
+   }
+  ],
+  "container-title": "Calphad",
+  "volume": "89",
+  "page": "102833",
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.calphad.2025.102833",
+  "container-title-short": "Calphad"
+ },
+ {
+  "id": "Foreman-Mackey",
+  "type": "article-journal",
+  "title": "emcee: The MCMC Hammer",
+  "author": [
+   {
+    "family": "Foreman-Mackey",
+    "given": "D."
+   },
+   {
+    "family": "Hogg",
+    "given": "D. W."
+   },
+   {
+    "family": "Lang",
+    "given": "D."
+   },
+   {
+    "family": "Goodman",
+    "given": "J."
+   }
+  ],
+  "container-title": "Publications of the Astronomical Society of the Pacific",
+  "volume": "125",
+  "page": "306-312",
+  "issued": {
+   "date-parts": [
+    [
+     2013
+    ]
+   ]
+  },
+  "DOI": "10.1086/670067",
+  "container-title-short": "Publ. Astron. Soc. Pac."
+ },
+ {
+  "id": "Ansara-GaSb-InSb",
+  "type": "journal-article",
+  "title": "A binary database for III–V compound semiconductor systems",
+  "author": [
+   {
+    "family": "Ansara",
+    "given": "I."
+   },
+   {
+    "family": "Chatillon",
+    "given": "C."
+   },
+   {
+    "family": "Lukas",
+    "given": "H.L."
+   },
+   {
+    "family": "Nishizawa",
+    "given": "T."
+   },
+   {
+    "family": "Ohtani",
+    "given": "H."
+   },
+   {
+    "family": "Ishida",
+    "given": "K."
+   },
+   {
+    "family": "Hillert",
+    "given": "M."
+   },
+   {
+    "family": "Sundman",
+    "given": "B."
+   },
+   {
+    "family": "Argent",
+    "given": "B.B."
+   },
+   {
+    "family": "Watson",
+    "given": "A."
+   },
+   {
+    "family": "Chart",
+    "given": "T.G."
+   },
+   {
+    "family": "Anderson",
+    "given": "T."
+   }
+  ],
+  "container-title": "Calphad",
+  "volume": "18",
+  "issue": "2",
+  "page": "177-222",
+  "issued": {
+   "date-parts": [
+    [
+     1994
+    ]
+   ]
+  },
+  "DOI": "10.1016/0364-5916(94)90027-2",
+  "container-title-short": "Calphad"
+ },
+ {
+  "id": "Oh-SnSb",
+  "type": "article-journal",
+  "title": "A thermodynamic study on the Ag-Sb-Sn system",
+  "author": [
+   {
+    "family": "Oh",
+    "given": "C.-S."
+   },
+   {
+    "family": "Shim",
+    "given": "J.-H."
+   },
+   {
+    "family": "Lee",
+    "given": "B.-J."
+   },
+   {
+    "family": "Lee",
+    "given": "D. N."
+   }
+  ],
+  "container-title": "Journal of Alloys and Compounds",
+  "volume": "238",
+  "page": "155-166",
+  "issued": {
+   "date-parts": [
+    [
+     1996
+    ]
+   ]
+  },
+  "DOI": "10.1016/0925-8388(95)02191-4",
+  "container-title-short": "J. Alloys Compd."
+ },
+ {
+  "id": "Manasijevic",
+  "type": "article-journal",
+  "title": "Experimental investigation and thermodynamic prediction of the Ga-Sb-Sn phase equilibria",
+  "author": [
+   {
+    "family": "Manasijevic",
+    "given": "D."
+   },
+   {
+    "family": "Minic",
+    "given": "D."
+   },
+   {
+    "family": "Zivkovic",
+    "given": "D."
+   },
+   {
+    "family": "Talijan",
+    "given": "N."
+   },
+   {
+    "family": "Zivkovic",
+    "given": "Z."
+   }
+  ],
+  "container-title": "International Journal of Materials Research",
+  "volume": "101",
+  "page": "827-833",
+  "issued": {
+   "date-parts": [
+    [
+     2010
+    ]
+   ]
+  },
+  "DOI": "10.3139/146.110354",
+  "container-title-short": "Int. J. Mater. Res."
+ },
+ {
+  "id": "Ma-Liu",
+  "type": "article-journal",
+  "author": [
+   {
+    "given": "Kunquan",
+    "family": "Ma"
+   },
+   {
+    "given": "Jing",
+    "family": "Liu"
+   }
+  ],
+  "title": "Liquid metal cooling in thermal management of computer chips",
+  "container-title": "Frontiers of Energy and Power Engineering in China",
+  "container-title-short": "Front. Energy Power Eng. China",
+  "volume": "1",
+  "issue": "4",
+  "page": "384-402",
+  "issued": {
+   "date-parts": [
+    [
+     2007
+    ]
+   ]
+  },
+  "DOI": "10.1007/s11708-007-0057-3"
+ },
+ {
+  "id": "Daeneke",
+  "type": "article-journal",
+  "title": "Liquid metals: fundamentals and applications in chemistry",
+  "container-title": "Chemical Society Reviews",
+  "container-title-short": "Chem. Soc. Rev.",
+  "volume": "47",
+  "page": "4073-4111",
+  "issued": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "DOI": "10.1039/C7CS00043J",
+  "author": [
+   {
+    "given": "T.",
+    "family": "Daeneke"
+   },
+   {
+    "given": "K.",
+    "family": "Khoshmanesh"
+   },
+   {
+    "given": "N.",
+    "family": "Mahmood"
+   },
+   {
+    "given": "I. A.",
+    "family": "de Castro"
+   },
+   {
+    "given": "D.",
+    "family": "Esrafilzadeh"
+   },
+   {
+    "given": "S. J.",
+    "family": "Barrow"
+   },
+   {
+    "given": "M. D.",
+    "family": "Dickey"
+   },
+   {
+    "given": "K.",
+    "family": "Kalantar-zadeh"
+   }
+  ]
+ },
+ {
+  "id": "Yan",
+  "type": "article-journal",
+  "title": "Experimental investigation on optimization of the performance of gallium-based liquid metal with high thermal conductivity as thermal interface material for efficient electronic cooling",
+  "container-title": "International Journal of Heat and Mass Transfer",
+  "container-title-short": "Int. J. Heat Mass Transfer",
+  "volume": "226",
+  "page": "125455",
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.ijheatmasstransfer.2024.125455",
+  "author": [
+   {
+    "given": "Yuhao",
+    "family": "Yan"
+   },
+   {
+    "given": "Yuan",
+    "family": "Zhuang"
+   },
+   {
+    "given": "Hongsheng",
+    "family": "Ouyang"
+   },
+   {
+    "given": "Jianhan",
+    "family": "Hao"
+   },
+   {
+    "given": "Xiaohong",
+    "family": "Han"
+   }
+  ]
+ },
+ {
+  "id": "Liu-Galinstan",
+  "type": "article-journal",
+  "title": "Characterization of Nontoxic Liquid-Metal Alloy Galinstan for Applications in Microdevices",
+  "container-title": "Journal of Microelectromechanical Systems",
+  "container-title-short": "J. Microelectromech. Syst.",
+  "volume": "21",
+  "issue": "2",
+  "page": "443-450",
+  "issued": {
+   "date-parts": [
+    [
+     2012
+    ]
+   ]
+  },
+  "DOI": "10.1109/JMEMS.2011.2174421",
+  "author": [
+   {
+    "given": "Tingyi",
+    "family": "Liu"
+   },
+   {
+    "given": "Prosenjit",
+    "family": "Sen"
+   },
+   {
+    "given": "Chang-Jin",
+    "family": "Kim"
+   }
+  ]
+ },
+ {
+  "id": "Senel",
+  "type": "article-journal",
+  "title": "Liquid metal embrittlement of aluminium by segregation of trace element gallium",
+  "container-title": "Corrosion Science",
+  "container-title-short": "Corros. Sci.",
+  "volume": "85",
+  "page": "167-173",
+  "issued": {
+   "date-parts": [
+    [
+     2014
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.corsci.2014.04.012",
+  "author": [
+   {
+    "given": "Esma",
+    "family": "Senel"
+   },
+   {
+    "given": "John C.",
+    "family": "Walmsley"
+   },
+   {
+    "given": "Spyros",
+    "family": "Diplas"
+   },
+   {
+    "given": "Kemal",
+    "family": "Nisancioglu"
+   }
+  ]
+ },
+ {
+  "id": "Dutta-GaSb",
+  "type": "article-journal",
+  "title": "The physics and technology of gallium antimonide: An emerging optoelectronic material",
+  "container-title": "Journal of Applied Physics",
+  "container-title-short": "J. Appl. Phys.",
+  "volume": "81",
+  "page": "5821-5870",
+  "issued": {
+   "date-parts": [
+    [
+     1997
+    ]
+   ]
+  },
+  "DOI": "10.1063/1.365356",
+  "author": [
+   {
+    "given": "P. S.",
+    "family": "Dutta"
+   },
+   {
+    "given": "H. L.",
+    "family": "Bhat"
+   },
+   {
+    "given": "Vikram",
+    "family": "Kumar"
+   }
+  ]
+ },
+ {
+  "id": "Dutta-LPE",
+  "type": "article-journal",
+  "title": "Surface morphology, electrical and optical properties of gallium antimonide layers grown by liquid phase epitaxy",
+  "container-title": "Journal of Crystal Growth",
+  "container-title-short": "J. Cryst. Growth",
+  "volume": "152",
+  "page": "14-20",
+  "issued": {
+   "date-parts": [
+    [
+     1995
+    ]
+   ]
+  },
+  "DOI": "10.1016/0022-0248(95)00071-2",
+  "author": [
+   {
+    "given": "P. S.",
+    "family": "Dutta"
+   },
+   {
+    "given": "K. S. R. Koteswara",
+    "family": "Rao"
+   },
+   {
+    "given": "H. L.",
+    "family": "Bhat"
+   },
+   {
+    "given": "K. Gopalakrishna",
+    "family": "Naik"
+   },
+   {
+    "given": "V.",
+    "family": "Kumar"
+   }
+  ]
+ },
+ {
+  "id": "Spencer",
+  "type": "article-journal",
+  "title": "A brief history of CALPHAD",
+  "container-title": "Calphad",
+  "container-title-short": "Calphad",
+  "volume": "32",
+  "page": "1-8",
+  "issued": {
+   "date-parts": [
+    [
+     2008
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.calphad.2007.10.001",
+  "author": [
+   {
+    "given": "P. J.",
+    "family": "Spencer"
+   }
+  ]
+ },
+ {
+  "id": "Zhang-SnSb",
+  "type": "journal-article",
+  "title": "A thermodynamic assessment of the Mg–Sn–Sb ternary system",
+  "author": [
+   {
+    "family": "Zhang",
+    "given": "Jiyuan"
+   },
+   {
+    "family": "Wang",
+    "given": "Jun"
+   },
+   {
+    "family": "Yuan",
+    "given": "Yuan"
+   }
+  ],
+  "container-title": "Calphad",
+  "volume": "75",
+  "page": "102361",
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.calphad.2021.102361",
+  "container-title-short": "Calphad"
+ },
+ {
+  "id": "Schmetterer-SnSb",
+  "type": "journal-article",
+  "title": "The phase equilibria in the Sb-Sn system – Part II: Experimental results",
+  "author": [
+   {
+    "family": "Schmetterer",
+    "given": "Clemens"
+   },
+   {
+    "family": "Polt",
+    "given": "Julia"
+   },
+   {
+    "family": "Flandorfer",
+    "given": "Hans"
+   }
+  ],
+  "container-title": "Journal of Alloys and Compounds",
+  "volume": "743",
+  "page": "523-536",
+  "issued": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.jallcom.2017.11.367",
+  "container-title-short": "J. Alloys Compd."
+ },
+ {
+  "id": "Chen-SnSb",
+  "type": "journal-article",
+  "title": "Phase Equilibria of the Sn-Sb Binary System",
+  "author": [
+   {
+    "family": "Chen",
+    "given": "Sinn-Wen"
+   },
+   {
+    "family": "Chen",
+    "given": "Chih-Chi"
+   },
+   {
+    "family": "Gierlotka",
+    "given": "Wojcieh"
+   },
+   {
+    "family": "Zi",
+    "given": "An-Ren"
+   },
+   {
+    "family": "Chen",
+    "given": "Po-Yin"
+   },
+   {
+    "family": "Wu",
+    "given": "Hsin-Jay"
+   }
+  ],
+  "container-title": "Journal of Electronic Materials",
+  "volume": "37",
+  "issue": "7",
+  "page": "992-1002",
+  "issued": {
+   "date-parts": [
+    [
+     2008
+    ]
+   ]
+  },
+  "DOI": "10.1007/s11664-008-0464-x",
+  "container-title-short": "J. Electron. Mater."
+ },
+ {
+  "id": "Woolley-Lees",
+  "type": "journal-article",
+  "title": "Equilibrium diagrams with InSb as one component",
+  "author": [
+   {
+    "family": "Woolley",
+    "given": "J.C."
+   },
+   {
+    "family": "Lees",
+    "given": "D.G."
+   }
+  ],
+  "container-title": "Journal of the Less Common Metals",
+  "volume": "1",
+  "issue": "3",
+  "page": "192-198",
+  "issued": {
+   "date-parts": [
+    [
+     1959
+    ]
+   ]
+  },
+  "DOI": "10.1016/0022-5088(59)90026-8",
+  "container-title-short": "J. Less-Common Met."
+ },
+ {
+  "id": "Blom-Plaskett",
+  "type": "journal-article",
+  "title": "The In-Ga-Sb Ternary Phase Diagram",
+  "author": [
+   {
+    "family": "Blom",
+    "given": "G. M."
+   },
+   {
+    "family": "Plaskett",
+    "given": "T. S."
+   }
+  ],
+  "container-title": "Journal of The Electrochemical Society",
+  "volume": "118",
+  "issue": "11",
+  "page": "1831",
+  "issued": {
+   "date-parts": [
+    [
+     1971
+    ]
+   ]
+  },
+  "DOI": "10.1149/1.2407845",
+  "container-title-short": "J. Electrochem. Soc."
+ },
+ {
+  "id": "Antypas",
+  "type": "journal-article",
+  "title": "Liquidus and solidus data at 500 °C for the In-Ga-Sb system",
+  "author": [
+   {
+    "family": "Antypas",
+    "given": "G.A."
+   }
+  ],
+  "container-title": "Journal of Crystal Growth",
+  "volume": "16",
+  "issue": "2",
+  "page": "181-182",
+  "issued": {
+   "date-parts": [
+    [
+     1972
+    ]
+   ]
+  },
+  "DOI": "10.1016/0022-0248(72)90111-x",
+  "container-title-short": "J. Cryst. Growth"
+ },
+ {
+  "id": "Ansara-Gambino-Bros",
+  "type": "journal-article",
+  "title": "Étude thermodynamique du système ternaire gallium-indium-antimoine",
+  "author": [
+   {
+    "family": "Ansara",
+    "given": "I."
+   },
+   {
+    "family": "Gambino",
+    "given": "M."
+   },
+   {
+    "family": "Bros",
+    "given": "J.P."
+   }
+  ],
+  "container-title": "Journal of Crystal Growth",
+  "volume": "32",
+  "issue": "1",
+  "page": "101-110",
+  "issued": {
+   "date-parts": [
+    [
+     1976
+    ]
+   ]
+  },
+  "DOI": "10.1016/0022-0248(76)90016-6",
+  "container-title-short": "J. Cryst. Growth"
+ },
+ {
+  "id": "Gerdes-Predel",
+  "type": "journal-article",
+  "title": "Phasengleichgewichte der pseudobinären Systeme GaSb-Sn, InSb-Sn und AlSb-Sn",
+  "author": [
+   {
+    "family": "Gerdes",
+    "given": "Frerich"
+   },
+   {
+    "family": "Predel",
+    "given": "Bruno"
+   }
+  ],
+  "container-title": "Journal of the Less Common Metals",
+  "volume": "79",
+  "issue": "2",
+  "page": "281-288",
+  "issued": {
+   "date-parts": [
+    [
+     1981
+    ]
+   ]
+  },
+  "DOI": "10.1016/0022-5088(81)90077-1",
+  "container-title-short": "J. Less-Common Met."
+ },
+ {
+  "id": "Katayama-1998",
+  "type": "journal-article",
+  "title": "Measurement of activity of gallium in liquid Ga–Sb–Sn alloys by emf method with zirconia as solid electrolyte",
+  "author": [
+   {
+    "family": "Katayama",
+    "given": "I"
+   },
+   {
+    "family": "Fukuda",
+    "given": "Y"
+   },
+   {
+    "family": "Hattori",
+    "given": "Y"
+   },
+   {
+    "family": "Maruyama",
+    "given": "T"
+   }
+  ],
+  "container-title": "Thermochimica Acta",
+  "volume": "314",
+  "issue": "1-2",
+  "page": "175-181",
+  "issued": {
+   "date-parts": [
+    [
+     1998
+    ]
+   ]
+  },
+  "DOI": "10.1016/s0040-6031(97)00464-4",
+  "container-title-short": "Thermochim. Acta"
+ },
+ {
+  "id": "Zivkovic-GaSbSn",
+  "type": "journal-article",
+  "title": "Comparative thermodynamic study of GaSb-Sn system",
+  "author": [
+   {
+    "family": "Živković",
+    "given": "D."
+   },
+   {
+    "family": "Katayama",
+    "given": "I."
+   },
+   {
+    "family": "Kostov",
+    "given": "A."
+   },
+   {
+    "family": "Živković",
+    "given": "Ž."
+   }
+  ],
+  "container-title": "Journal of Thermal Analysis and Calorimetry",
+  "volume": "71",
+  "issue": "2",
+  "page": "567-581",
+  "issued": {
+   "date-parts": [
+    [
+     2003
+    ]
+   ]
+  },
+  "DOI": "10.1023/a:1022864112207",
+  "container-title-short": "J. Therm. Anal. Calorim."
+ }
+]

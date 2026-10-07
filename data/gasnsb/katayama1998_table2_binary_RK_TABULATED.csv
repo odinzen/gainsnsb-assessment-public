@@ -1,0 +1,17 @@
+# TABULATED. Katayama, Fukuda, Hattori & Maruyama 1998, Thermochim. Acta 314, 175-181, PII S0040-6031(97)00464-4
+# Table 2 (p. 179): Redlich-Kister fits of the authors' binary liquid G^xs, used for their Chou-model estimate.
+#   G^xs = X_i X_j sum_v (X_i - X_j)^v L^(v)(T), L^(v) = a + b T. Fitted to G^xs computed at 50 K steps, 1000-1200 K.
+# Units are not printed; J/mol of atoms is implied (b in J/(mol K)). Reference: pure liquids.
+# Note the i-j order: Ga-Sb, Sn-Ga (not Ga-Sn), Sb-Sn. A TDB with Ga before Sn needs odd-order terms sign-flipped.
+# Sources per the paper: Ga-Sb and Ga-Sn from Katayama's earlier emf work (ref. [1]); Sb-Sn from ref. [11]
+#   (Tanaka et al., then 'to be published'). The text cites both [1] and [11] for Sb-Sn.
+i,j,v,a_J,b_J_per_K,T_range_K
+Ga,Sb,0,-832.8,-6.6885,1000-1200
+Ga,Sb,1,5598.3,-6.6301,1000-1200
+Ga,Sb,2,-120.56,-1.1081,1000-1200
+Sn,Ga,0,16792.0,-12.138,1000-1200
+Sn,Ga,1,-15241.0,13.065,1000-1200
+Sn,Ga,2,5651.5,-5.2132,1000-1200
+Sb,Sn,0,-4855.5,-1.6688,1000-1200
+Sb,Sn,1,1092.7,-1.1787,1000-1200
+Sb,Sn,2,1752.8,-0.7129,1000-1200

@@ -1,0 +1,23 @@
+# Vassiliev, Feutelais, Sghaier, Legendre, J. Alloys Compd. 314 (2001) 198-205, doi:10.1016/S0925-8388(00)01243-3
+# Table 8, p.203. Partial thermodynamic quantities of indium (partial molar enthalpy and entropy of mixing, reference pure liquid In).
+# dH in J/mol, dS in J/(mol K). Sign as printed. Measured values = -F*a and +F*b from Tables 3/6.
+# The table is two INDEPENDENT blocks printed side by side: the left block (alloy, x_Sb, dH) and the right block (alloy, x_In, dS) are sorted differently, so the alloy number differs within a printed row. Kept here row-for-row as printed; use alloy_H / alloy_S to join, not the row.
+# dH_fit = Eq.7: x_Sb*(-3267.3 - 21275 x_Sb + 15342 x_Sb^2).  dS_fit = Eq.8: -9.241*(1 - x_In/4)*ln(x_In).
+# Last row: left block is '[15]' (Hultgren et al. 1973) at x_Sb = 1, dH = -9194 (In infinitely dilute in Sb); right block of that row prints a blank alloy and x_In = 0, dS = 0, 0 (ambiguous, dS diverges at x_In -> 0; do not use).
+alloy_H,x_Sb,dH_In_meas_J_mol,dH_In_fit_J_mol,alloy_S,x_In,dS_In_meas_J_molK,dS_In_fit_J_molK
+22,0.2,-1217,-1382,20,0.1401,17.5,17.53
+21,0.2505,-1968,-1907,12,0.1666,15.77,15.87
+18,0.2501,-2447,-1907,19,0.1999,14.68,14.14
+8,0.3334,-2739,-2886,21,0.2501,12.31,12.01
+23,0.4,-3543,-3729,10,0.2502,11.73,12.0
+9,0.4008,-3613,-3739,17,0.25,11.3,12.01
+24,0.45,-4178,-4380,9,0.2997,10.4,10.3
+12,0.5001,-4950,-5035,8,0.3335,9.81,9.3
+10,0.5,-5006,-5035,11,0.3332,9.02,9.31
+11,0.4991,-5384,-5035,23,0.4,8.02,7.62
+20,0.5733,-5685,-5986,22,0.4001,7.98,7.62
+19,0.6,-5611,-6309,24,0.4501,6.89,6.55
+17,0.6268,-7199,-6628,18,0.5,4.43,5.61
+1,0.5717,-6217,-5955,1,0.4283,6.8,7.0
+2,0.6002,-6509,-6308,2,0.3998,7.56,7.63
+[15],1,-9194,-9194,,0,0,0

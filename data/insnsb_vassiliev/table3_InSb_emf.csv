@@ -1,0 +1,8 @@
+# Vassiliev, Feutelais, Sghaier, Legendre, J. Alloys Compd. 314 (2001) 198-205, doi:10.1016/S0925-8388(00)01243-3
+# Table 3, p.199. Experimental EMF results for In-Sb (alloys 1, 2).
+# Cell (I): (-) In(l) | In+ in LiCl-KCl eutectic | In_x Sb_(1-x)(l) (+). Reference: pure liquid In.
+# mu_In - mu_In(pure liq) = -1*F*E (n = 1).
+# E = a + b*T with E in mV and T in K. a_sd and b_sd are the printed +/- values (the paper does not say whether they are 1 sigma). b is given in mV/K (printed column is b x 10^{k}, already divided out here; printed value kept in b_printed). Table 3 prints b x 10^2. No +/- on a, b printed for this table.
+alloy_no,x_In,x_Sb,a_mV,b_mV_per_K,b_printed_x1e2,n_points,Tbar_K,Ebar_mV,s0sq_x1e2_mV2,sum_sq_dev_T_K2,Tmin_K,Tmax_K
+1,0.4283,0.5717,64.43,0.07042,7.042,69,807.5,121.3,0.52,17890,770,830
+2,0.3998,0.6002,67.46,0.07833,7.833,14,795.3,129.75,0.22,3079,770,820

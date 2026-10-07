@@ -1,0 +1,38 @@
+# DIGITIZED from Liao et al. (1982) Fig. 13 (p. 164), ternary liquidus isotherms.
+# Figure source: Liao, Su, Tung & Brebrick, Calphad 6 (1982) 141-169, doi:10.1016/0364-5916(82)90009-8
+# Caption: triangles ref. 30, circles ref. 31. Only plotted SYMBOLS were digitized; the solid (Liao), dotted
+#   (ref. 9) and dashed (ref. 30) curves were not.
+# T_C is NOT read from an axis: Liao gives no temperature per point. It is the labelled isotherm
+#   (300, 400, 500, 600 or 675 degC) on which the symbol is drawn. Every symbol lies on one of these curves.
+# Columns: source as cited by Liao; symbol; T_C (isotherm); x_Ga, x_In, x_Sb = liquid atom fractions;
+#   px, py = symbol centre in the 300 dpi scan; confidence; note.
+# Calibration: affine map from the three triangle vertices, each the intersection of straight-line fits to
+#   the drawn edges. In=(326.9,2026.1) Ga=(2089.1,2028.4) Sb=(1215.5,542.1) px. Edge-fit scatter 0.6-1.2 px.
+#   Cross-check: the 0.05 tick marks on the In-Ga edge sit 3-6 px (0.002-0.003) Ga-ward of the
+#   vertex-based positions, an unresolved drawing offset carried into the uncertainty below.
+# Uncertainty: about +/-0.004 in each atom fraction for 'high', +/-0.008 for 'medium', +/-0.015 for 'low'.
+#   'low' rows are blobs on the calculated curves whose shape cannot be fully resolved; treat with care.
+# Not included: two dark blobs on the 300 degC curves at about (462,1975) px (x_Ga 0.06, x_In 0.91,
+#   x_Sb 0.035) and (690,2008) px (x_Ga 0.20, x_In 0.79, x_Sb 0.012). Both widen downward like a partly
+#   hidden triangle and may be two more ref. 30 points at 300 degC, but they cannot be separated from
+#   overlapping dashes, so they are reported here only. Check against Blom & Plaskett (1971) directly.
+# Liao fitted these as the ternary liquidus (sigma_L(TER) = 11.6 degC, Table V); number of points not stated.
+source,symbol,T_C,x_Ga,x_In,x_Sb,px,py,confidence,note
+"Blom & Plaskett 1971, J. Electrochem. Soc. 118, 1831 (Liao ref. 30)",triangle,600,0.1083,0.3056,0.5861,1038.5,1156.5,medium,"on the 600 degC curve, upper branch"
+"Blom & Plaskett 1971, J. Electrochem. Soc. 118, 1831 (Liao ref. 30)",triangle,675,0.3128,0.1657,0.5214,1341.5,1253.0,high,
+"Blom & Plaskett 1971, J. Electrochem. Soc. 118, 1831 (Liao ref. 30)",triangle,600,0.1241,0.3797,0.4962,986.5,1290.0,low,at the crossing of the 600 degC curves with the x_Sb=0.5 line; shape mostly hidden
+"Blom & Plaskett 1971, J. Electrochem. Soc. 118, 1831 (Liao ref. 30)",triangle,600,0.1847,0.4140,0.4013,1009.0,1431.0,high,
+"Blom & Plaskett 1971, J. Electrochem. Soc. 118, 1831 (Liao ref. 30)",triangle,675,0.5246,0.1033,0.3721,1582.0,1475.0,low,"base visible below the 675 degC curve, apex hidden"
+"Blom & Plaskett 1971, J. Electrochem. Soc. 118, 1831 (Liao ref. 30)",triangle,500,0.1309,0.6053,0.2637,792.0,1635.0,medium,adjacent to a circle
+"Blom & Plaskett 1971, J. Electrochem. Soc. 118, 1831 (Liao ref. 30)",triangle,600,0.6032,0.1879,0.2089,1575.5,1717.5,medium,apex hidden in the curve
+"Blom & Plaskett 1971, J. Electrochem. Soc. 118, 1831 (Liao ref. 30)",triangle,500,0.3297,0.4918,0.1785,1066.5,1762.0,low,"apex visible, base merged with curves"
+"Blom & Plaskett 1971, J. Electrochem. Soc. 118, 1831 (Liao ref. 30)",triangle,500,0.5049,0.3709,0.1241,1327.0,1843.0,low,dark patch on the 500 degC curves; shape not resolvable
+"Blom & Plaskett 1971, J. Electrochem. Soc. 118, 1831 (Liao ref. 30)",triangle,400,0.1467,0.7576,0.0956,670.5,1884.5,medium,apex hidden in the curve
+"Blom & Plaskett 1971, J. Electrochem. Soc. 118, 1831 (Liao ref. 30)",triangle,300,0.5038,0.4659,0.0303,1241.6,1982.25,high,"apex hidden in the curve, base clear"
+"Antypas 1972, J. Crystal Growth 16, 181 (Liao ref. 31)",circle,500,0.0147,0.6200,0.3653,677.5,1484.0,high,
+"Antypas 1972, J. Crystal Growth 16, 181 (Liao ref. 31)",circle,500,0.0954,0.6092,0.2953,757.5,1588.0,high,
+"Antypas 1972, J. Crystal Growth 16, 181 (Liao ref. 31)",circle,500,0.1476,0.5964,0.2560,814.5,1646.5,medium,adjacent to a triangle
+"Antypas 1972, J. Crystal Growth 16, 181 (Liao ref. 31)",circle,500,0.2505,0.5479,0.2016,947.5,1727.5,medium,sits on the curve
+"Antypas 1972, J. Crystal Growth 16, 181 (Liao ref. 31)",circle,500,0.4224,0.4264,0.1511,1205.6,1802.75,low,merged with curves; round top visible
+"Antypas 1972, J. Crystal Growth 16, 181 (Liao ref. 31)",circle,500,0.4624,0.3977,0.1399,1266.0,1819.5,medium,sits on the curve
+"Antypas 1972, J. Crystal Growth 16, 181 (Liao ref. 31)",circle,500,0.5578,0.3366,0.1056,1403.75,1870.6,high,

@@ -1,0 +1,14 @@
+# DIGITIZED. Gerdes & Predel 1981, J. Less-Common Met. 79, 281-288, doi:10.1016/0022-5088(81)90077-1
+# Figs. 1 and 2, p. 283. The paper prints no invariant temperature or eutectic composition; the text says
+#   only that one eutectic is the sole three-phase reaction in each section. Values below are read from
+#   the figures. Rows marked 'drawn' come from the authors' drawn lines, not from data symbols.
+# Units: T in K and degC (T_C = T_K - 273.15); x_Sn atom fraction.
+system,figure,quantity,T_K,T_C,x_Sn,basis
+GaSb-Sn,Fig. 1,"eutectic T, drawn horizontal line",505.1,231.9,,"drawn line, authors' assignment; +/-1 K reading"
+GaSb-Sn,Fig. 1,"eutectic T, mean of halt symbols x_Sn<1",507.5,234.4,,"n=11, sd=1.6 K, range 504.3-510.3 K"
+GaSb-Sn,Fig. 1,pure Sn halt symbol,504.7,231.6,1.0000,clipped symbol at the Sn axis; Sn m.p. is 505.08 K
+GaSb-Sn,Fig. 1,x_Sn where drawn liquidus meets eutectic line,,,0.997,"drawn curve, not a measurement; +/-0.01"
+InSb-Sn,Fig. 2,"eutectic T, drawn horizontal line",509.9,236.8,,"drawn line, authors' assignment; +/-1 K reading"
+InSb-Sn,Fig. 2,"eutectic T, mean of halt symbols x_Sn<1",508.7,235.5,,"n=13, sd=3.1 K, range 504.1-512.0 K"
+InSb-Sn,Fig. 2,pure Sn halt symbol,506.2,233.0,1.0000,clipped symbol at the Sn axis; Sn m.p. is 505.08 K
+InSb-Sn,Fig. 2,x_Sn where drawn liquidus meets eutectic line,,,0.884,"drawn curve, not a measurement; +/-0.01"

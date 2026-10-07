@@ -1,0 +1,29 @@
+{
+ "driving_force_at_measured_eutectic_J": {
+  "ORTHORHOMBIC_GA": -7.284189734251413,
+  "TETRAGONAL_A6": -93.79932296993138,
+  "BCT_A5": -61.90265693706351,
+  "BETA": -61.8644541487447,
+  "GAMMA": -1296.1435053562673
+ },
+ "Lt_scan": [
+  {
+   "Lt": -4570.418265842562,
+   "eutectic_C": 9.697320979943925,
+   "section_rms_C": 5.451572641341431,
+   "liquidus_at_measured_eutectic_C": 10.350441575255797
+  },
+  {
+   "Lt": -3000.0,
+   "eutectic_C": 10.315860228385475,
+   "section_rms_C": 5.523962152667827,
+   "liquidus_at_measured_eutectic_C": 11.254051847110883
+  },
+  {
+   "Lt": -2000.0,
+   "eutectic_C": 10.664293477187812,
+   "section_rms_C": 5.7314276652752385,
+   "liquidus_at_measured_eutectic_C": 13.19022666812425
+  }
+ ]
+}

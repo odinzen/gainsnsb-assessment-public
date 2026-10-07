@@ -1,0 +1,23 @@
+# DIGITIZED from Liao et al. (1982) Fig. 15 (p. 166), liquid-solid tie-lines at 500 degC.
+# Figure source: Liao, Su, Tung & Brebrick, Calphad 6 (1982) 141-169, doi:10.1016/0364-5916(82)90009-8
+# Experimental points (filled triangles) from Antypas 1972, J. Crystal Growth 16, 181 (Liao ref. 31). Only symbols were digitized,
+#   not Liao's solid curve or the dotted/dashed ref. 8 curve.
+# x axis of the figure: x_Ga/(x_Ga + x_In) in the LIQUID. y axis: mole fraction GaSb in the (Ga,In)Sb solid.
+# The figure does NOT give the liquid Sb content, so x_In_liq and x_Sb_liq are left blank. They must be
+#   taken from the original paper; they are not derivable from this figure without a liquidus model.
+# Columns: source; T_C; x_liq_axis = the figure's x-axis quantity; x_In_liq, x_Sb_liq (blank);
+#   y_GaSb_solid; y_InSb_solid = 1 - y_GaSb_solid; px, py = symbol centre (300 dpi scan); note.
+# Symbol centre = bounding-box centre of the filled triangle (height about 36 px), placed from the apex or
+#   base edge, whichever is not hidden by the calculated curve.
+# Calibration: affine least squares on axis ticks (both opposite edges for each axis).
+#   x residual rms 0.0009, max 0.0016; y residual rms 0.0012, max 0.0023.
+#   Scale about 134 px per 0.1 (x) and 140 px per 0.1 (y).
+# Digitizing uncertainty: about +/-0.004 in both coordinates (+/-0.006 where two triangles overlap).
+source,T_C,x_liq_axis,x_In_liq,x_Sb_liq,y_GaSb_solid,y_InSb_solid,px,py,note
+"Antypas 1972, J. Crystal Growth 16, 181 (Liao ref. 31)",500,0.3201,,,0.8716,0.1284,1061.5,596.5,
+"Antypas 1972, J. Crystal Growth 16, 181 (Liao ref. 31)",500,0.4301,,,0.8999,0.1001,1210.5,555.75,
+"Antypas 1972, J. Crystal Growth 16, 181 (Liao ref. 31)",500,0.4800,,,0.9198,0.0802,1278.0,527.5,
+"Antypas 1972, J. Crystal Growth 16, 181 (Liao ref. 31)",500,0.5494,,,0.9306,0.0694,1372.0,511.75,
+"Antypas 1972, J. Crystal Growth 16, 181 (Liao ref. 31)",500,0.5693,,,0.9394,0.0606,1399.0,499.25,
+"Antypas 1972, J. Crystal Growth 16, 181 (Liao ref. 31)",500,0.6202,,,0.9549,0.0451,1468.0,477.0,
+"Antypas 1972, J. Crystal Growth 16, 181 (Liao ref. 31)",500,0.6593,,,0.9591,0.0409,1521.0,470.75,

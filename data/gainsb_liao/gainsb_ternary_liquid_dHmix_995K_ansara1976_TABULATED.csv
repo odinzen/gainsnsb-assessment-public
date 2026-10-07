@@ -1,0 +1,108 @@
+# TABULATED. Ansara, Gambino & Bros, J. Crystal Growth 32 (1976) 101-110, Tableau 4 (p. 106).
+# Integral enthalpy of mixing of ternary Ga-In-Sb liquids at 995 K, relative to the pure LIQUID elements,
+#   per mole of atoms (cal/mol as printed; the table prints -dH_M, signs flipped here so dH < 0 is exothermic).
+# Method: Tian-Calvet high-temperature microcalorimeter, indirect drop; stated precision 6 %.
+# Compositions: the paper gives x_In along four sections of fixed x_Ga/x_Sb = 3/1, 1/1, 1/2, 1/3.
+#   x_Ga = (1-x_In)*r/(1+r), x_Sb = (1-x_In)/(1+r). x_In printed to 3 decimals (last digit subscripted).
+# Transcription check: dH_eq3_recomputed is Ansara's Eq. (3) (Toop with In asymmetric, binary polynomials
+#   and alpha=5552.64, beta=-5752.12, gamma=138.69 cal/mol from the paper). It reproduces the printed
+#   'Eq.(3)' column within 1.5 cal/mol for 90 of 92 rows; the two exceptions (1:1 x_In=0.346, printed 302 vs
+#   299.3; 1:3 x_In=0.301, printed 444 vs 440.6) were re-read from the scan and are as printed.
+# The printed table has 92 rows; Liao (p. 162) says 'ninety' values were fitted. The 1:2 section ends with
+#   two identical rows (x_In=0.613, 384, 416), probably a duplicated line; both are kept here, flag it.
+# Liao plots these as Fig. 11 'at 722 degC' (995 K = 721.85 degC).
+# Columns: source; T_K; T_C; ratio_Ga_Sb; x_Ga; x_In; x_Sb; dH_mix_exp_cal (cal/mol atoms);
+#   dH_mix_exp_J (x4.184, J/mol atoms); dH_eq3_printed_cal; dH_eq3_recomputed_cal.
+source,T_K,T_C,ratio_Ga_Sb,x_Ga,x_In,x_Sb,dH_mix_exp_cal,dH_mix_exp_J,dH_eq3_printed_cal,dH_eq3_recomputed_cal
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,3:1,0.6330,0.156,0.2110,-97,-406,-131,-131.5
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,3:1,0.6300,0.160,0.2100,-94,-393,-130,-130.4
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,3:1,0.6225,0.170,0.2075,-100,-418,-127,-127.3
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,3:1,0.6158,0.179,0.2052,-96,-402,-124,-124.3
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,3:1,0.5873,0.217,0.1958,-85,-356,-110,-110.9
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,3:1,0.5363,0.285,0.1788,-68,-285,-85,-84.7
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,3:1,0.5288,0.295,0.1763,-65,-272,-81,-80.8
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,3:1,0.5235,0.302,0.1745,-72,-301,-78,-78.1
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,3:1,0.5212,0.305,0.1738,-70,-293,-77,-76.9
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,3:1,0.4560,0.392,0.1520,-46,-192,-45,-45.5
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,3:1,0.4477,0.403,0.1492,-42,-176,-42,-41.9
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,3:1,0.4447,0.407,0.1482,-47,-197,-41,-40.7
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,3:1,0.4395,0.414,0.1465,-42,-176,-38,-38.5
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,3:1,0.3855,0.486,0.1285,-22,-92,-19,-19.0
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,3:1,0.3788,0.495,0.1263,-27,-113,-17,-16.9
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,3:1,0.3735,0.502,0.1245,-25,-105,-15,-15.4
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,3:1,0.3345,0.554,0.1115,-8,-33,-6,-5.6
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,3:1,0.3255,0.566,0.1085,-15,-63,-4,-3.7
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,3:1,0.3195,0.574,0.1065,-12,-50,-3,-2.6
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,3:1,0.3188,0.575,0.1063,-10,-42,-2,-2.4
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,3:1,0.2895,0.614,0.0965,0,0,2,2.3
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,3:1,0.2760,0.632,0.0920,-7,-29,4,4.0
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,3:1,0.2745,0.634,0.0915,0,0,4,4.2
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,3:1,0.2482,0.669,0.0827,7,29,8,6.8
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:1,0.4375,0.125,0.4375,-311,-1301,-307,-307.0
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:1,0.4365,0.127,0.4365,-309,-1293,-307,-307.3
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:1,0.4300,0.140,0.4300,-304,-1272,-309,-309.0
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:1,0.4235,0.153,0.4235,-325,-1360,-310,-310.3
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:1,0.3880,0.224,0.3880,-342,-1431,-311,-310.8
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:1,0.3845,0.231,0.3845,-334,-1397,-310,-310.4
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:1,0.3735,0.253,0.3735,-324,-1356,-309,-308.9
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:1,0.3625,0.275,0.3625,-347,-1452,-307,-307.1
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:1,0.3270,0.346,0.3270,-324,-1356,-302,-299.3
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:1,0.3115,0.377,0.3115,-340,-1423,-295,-295.3
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:1,0.2800,0.440,0.2800,-308,-1289,-287,-286.6
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:1,0.2750,0.450,0.2750,-305,-1276,-285,-285.1
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:1,0.2700,0.460,0.2700,-321,-1343,-284,-283.5
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:1,0.2425,0.515,0.2425,-284,-1188,-274,-273.9
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:1,0.2320,0.536,0.2320,-296,-1238,-270,-269.6
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:1,0.2150,0.570,0.2150,-261,-1092,-262,-261.8
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:1,0.2025,0.595,0.2025,-268,-1121,-255,-255.2
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:1,0.1865,0.627,0.1865,-234,-979,-245,-245.5
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:2,0.3057,0.083,0.6113,-283,-1184,-301,-301.0
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:2,0.3020,0.094,0.6040,-291,-1218,-308,-308.5
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:2,0.2857,0.143,0.5713,-324,-1356,-337,-337.3
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:2,0.2797,0.161,0.5593,-331,-1385,-346,-346.3
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:2,0.2790,0.163,0.5580,-326,-1364,-347,-347.3
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:2,0.2687,0.194,0.5373,-354,-1481,-361,-361.3
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:2,0.2580,0.226,0.5160,-368,-1540,-374,-374.1
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:2,0.2460,0.262,0.4920,-386,-1615,-387,-387.2
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:2,0.2420,0.274,0.4840,-396,-1657,-391,-391.3
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:2,0.2420,0.274,0.4840,-380,-1590,-391,-391.3
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:2,0.2403,0.279,0.4807,-387,-1619,-393,-392.9
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:2,0.2223,0.333,0.4447,-401,-1678,-409,-409.2
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:2,0.2140,0.358,0.4280,-422,-1766,-416,-415.7
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:2,0.2120,0.364,0.4240,-403,-1686,-417,-417.2
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:2,0.2077,0.377,0.4153,-433,-1812,-420,-420.2
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:2,0.1893,0.432,0.3787,-434,-1816,-430,-430.4
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:2,0.1853,0.444,0.3707,-434,-1816,-432,-432.0
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:2,0.1697,0.491,0.3393,-430,-1799,-435,-435.4
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:2,0.1657,0.503,0.3313,-425,-1778,-435,-435.4
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:2,0.1623,0.513,0.3247,-421,-1761,-435,-435.2
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:2,0.1447,0.566,0.2893,-406,-1699,-429,-429.3
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:2,0.1410,0.577,0.2820,-397,-1661,-427,-427.0
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:2,0.1290,0.613,0.2580,-384,-1607,-416,-416.6
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:2,0.1290,0.613,0.2580,-384,-1607,-416,-416.6
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:3,0.2250,0.100,0.6750,-302,-1264,-299,-299.2
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:3,0.2235,0.106,0.6705,-292,-1222,-304,-304.6
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:3,0.2217,0.113,0.6653,-288,-1205,-310,-310.6
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:3,0.2210,0.116,0.6630,-312,-1305,-313,-313.2
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:3,0.2020,0.192,0.6060,-392,-1640,-372,-371.6
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:3,0.1980,0.208,0.5940,-375,-1569,-383,-382.7
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:3,0.1980,0.208,0.5940,-396,-1657,-383,-382.7
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:3,0.1885,0.246,0.5655,-404,-1690,-407,-407.6
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:3,0.1775,0.290,0.5325,-434,-1816,-434,-434.3
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:3,0.1770,0.292,0.5310,-465,-1946,-434,-435.4
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:3,0.1748,0.301,0.5243,-461,-1929,-444,-440.6
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:3,0.1590,0.364,0.4770,-462,-1933,-473,-473.4
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:3,0.1552,0.379,0.4657,-490,-2050,-480,-480.2
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:3,0.1547,0.381,0.4642,-509,-2130,-481,-481.1
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:3,0.1382,0.447,0.4147,-516,-2159,-505,-505.2
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:3,0.1375,0.450,0.4125,-505,-2113,-506,-506.0
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:3,0.1370,0.452,0.4110,-497,-2079,-506,-506.5
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:3,0.1337,0.465,0.4012,-493,-2063,-510,-509.8
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:3,0.1232,0.507,0.3698,-511,-2138,-516,-516.5
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:3,0.1222,0.511,0.3668,-495,-2071,-517,-516.8
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:3,0.1195,0.522,0.3585,-500,-2092,-517,-517.4
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:3,0.1150,0.540,0.3450,-492,-2059,-517,-517.3
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:3,0.1090,0.564,0.3270,-498,-2084,-515,-515.2
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:3,0.1062,0.575,0.3188,-474,-1983,-513,-513.3
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:3,0.0948,0.621,0.2843,-468,-1958,-499,-499.6
+"Ansara, Gambino & Bros 1976 (Liao ref. 26)",995,721.85,1:3,0.0940,0.624,0.2820,-449,-1879,-498,-498.3

@@ -1,0 +1,345 @@
+{
+ "database": "GaInSnSb.tdb",
+ "GaInSn_eutectic": {
+  "T_C": 9.71,
+  "below": [
+   "BCT_A5",
+   "BETA",
+   "ORTHORHOMBIC_GA"
+  ],
+  "liquid": {
+   "GA": 0.7485,
+   "IN": 0.1543,
+   "SN": 0.0972
+  }
+ },
+ "GaInSn_eutectic_no_ternary_term": {
+  "T_C": 11.31,
+  "below": [
+   "BCT_A5",
+   "BETA",
+   "ORTHORHOMBIC_GA"
+  ],
+  "liquid": {
+   "GA": 0.7975,
+   "IN": 0.1248,
+   "SN": 0.0776
+  }
+ },
+ "GaInSn_eutectic_pure_Ga_solids": {
+  "T_C": 9.51,
+  "below": [
+   "BCT_A5",
+   "BETA",
+   "ORTHORHOMBIC_GA"
+  ],
+  "liquid": {
+   "GA": 0.7449,
+   "IN": 0.1543,
+   "SN": 0.1007
+  }
+ },
+ "GaSn_eutectic": {
+  "T_C": 19.67,
+  "below": [
+   "BCT_A5",
+   "ORTHORHOMBIC_GA"
+  ],
+  "liquid": {
+   "GA": 0.9191,
+   "SN": 0.0809
+  }
+ },
+ "GaSn_eutectic_pure_Ga_solids": {
+  "T_C": 19.17,
+  "below": [
+   "BCT_A5",
+   "ORTHORHOMBIC_GA"
+  ],
+  "liquid": {
+   "GA": 0.9146,
+   "SN": 0.0854
+  }
+ },
+ "GaIn_eutectic": {
+  "T_C": 15.87,
+  "below": [
+   "ORTHORHOMBIC_GA",
+   "TETRAGONAL_A6"
+  ],
+  "liquid": {
+   "GA": 0.8581,
+   "IN": 0.1419
+  }
+ },
+ "InSn_eutectic": {
+  "T_C": 119.75,
+  "below": [
+   "BETA",
+   "GAMMA"
+  ],
+  "liquid": {
+   "IN": 0.5192,
+   "SN": 0.4808
+  }
+ },
+ "Ga_in_bSn_max": 0.0583,
+ "Ga_in_In_max": 0.0177,
+ "melting": {
+  "GA": {
+   "T_C": 29.77,
+   "primary": [
+    "ORTHORHOMBIC_GA"
+   ]
+  },
+  "IN": {
+   "T_C": 156.63,
+   "primary": [
+    "TETRAGONAL_A6"
+   ]
+  },
+  "SN": {
+   "T_C": 231.92,
+   "primary": [
+    "BCT_A5"
+   ]
+  },
+  "SB": {
+   "T_C": 630.63,
+   "primary": [
+    "RHOMBOHEDRAL_A7"
+   ]
+  }
+ },
+ "pure_In_stable_phase_vs_T_K": {
+  "800.0": [
+   "LIQUID"
+  ],
+  "850.0": [
+   "LIQUID"
+  ],
+  "900.0": [
+   "LIQUID"
+  ]
+ },
+ "GaSb_melting": {
+  "T_C": 709.44,
+  "primary": [
+   "ZINCBLENDE_B3"
+  ]
+ },
+ "InSb_melting": {
+  "T_C": 526.83,
+  "primary": [
+   "ZINCBLENDE_B3"
+  ]
+ },
+ "GaSb_eutectic_Sb_side": {
+  "T_C": 588.99,
+  "below": [
+   "RHOMBOHEDRAL_A7",
+   "ZINCBLENDE_B3"
+  ],
+  "liquid": {
+   "GA": 0.1167,
+   "SB": 0.8833
+  }
+ },
+ "InSb_eutectic_Sb_side": {
+  "T_C": 494.19,
+  "below": [
+   "RHOMBOHEDRAL_A7",
+   "ZINCBLENDE_B3"
+  ],
+  "liquid": {
+   "IN": 0.3116,
+   "SB": 0.6884
+  }
+ },
+ "InSb_eutectic_In_side": {
+  "T_C": 154.41,
+  "below": [
+   "TETRAGONAL_A6",
+   "ZINCBLENDE_B3"
+  ],
+  "liquid": {
+   "IN": 0.9953,
+   "SB": 0.0047
+  }
+ },
+ "SnSb_invariants": {
+  "L+Sb3Sn4->bSn": {
+   "T_C": 243.83,
+   "below": [
+    "BCT_A5",
+    "SB3SN4"
+   ],
+   "liquid": {
+    "SB": 0.0517,
+    "SN": 0.9483
+   }
+  },
+  "L+SbSn->Sb3Sn4": {
+   "T_C": 321.37,
+   "below": [
+    "SB3SN4",
+    "SBSN"
+   ],
+   "liquid": {
+    "SB": 0.1991,
+    "SN": 0.8009
+   }
+  },
+  "L+Sb->SbSn": {
+   "T_C": 425.17,
+   "below": [
+    "RHOMBOHEDRAL_A7",
+    "SBSN"
+   ],
+   "liquid": {
+    "SB": 0.5279,
+    "SN": 0.4721
+   }
+  }
+ },
+ "isopleth_76_15_9": {
+  "0.000": {
+   "T_C": 10.23,
+   "primary": [
+    "ORTHORHOMBIC_GA"
+   ]
+  },
+  "0.001": {
+   "T_C": 259.31,
+   "primary": [
+    "ZINCBLENDE_B3"
+   ]
+  },
+  "0.005": {
+   "T_C": 327.39,
+   "primary": [
+    "ZINCBLENDE_B3"
+   ]
+  },
+  "0.010": {
+   "T_C": 362.52,
+   "primary": [
+    "ZINCBLENDE_B3"
+   ]
+  },
+  "0.020": {
+   "T_C": 402.32,
+   "primary": [
+    "ZINCBLENDE_B3"
+   ]
+  },
+  "0.050": {
+   "T_C": 465.16,
+   "primary": [
+    "ZINCBLENDE_B3"
+   ]
+  },
+  "0.100": {
+   "T_C": 524.39,
+   "primary": [
+    "ZINCBLENDE_B3"
+   ]
+  }
+ },
+ "Sb_solubility_galinstan": {
+  "25": {
+   "phases": [
+    "LIQUID",
+    "ZINCBLENDE_B3"
+   ],
+   "x_Sb_liquid": 1.9318416137918333e-08,
+   "zincblende_In_fraction": 0.00041434235332258007
+  },
+  "50": {
+   "phases": [
+    "LIQUID",
+    "ZINCBLENDE_B3"
+   ],
+   "x_Sb_liquid": 1.2607194584908833e-07,
+   "zincblende_In_fraction": 0.00068846291977276
+  },
+  "100": {
+   "phases": [
+    "LIQUID",
+    "ZINCBLENDE_B3"
+   ],
+   "x_Sb_liquid": 2.5901075008370927e-06,
+   "zincblende_In_fraction": 0.0015567072779642227
+  },
+  "200": {
+   "phases": [
+    "LIQUID",
+    "ZINCBLENDE_B3"
+   ],
+   "x_Sb_liquid": 0.0001708976845392019,
+   "zincblende_In_fraction": 0.004774626508124994
+  }
+ },
+ "Sn_corner_liquidus": {
+  "Sn": {
+   "0.02": {
+    "T_C": 237.46,
+    "primary": [
+     "BCT_A5"
+    ]
+   },
+   "0.05": {
+    "T_C": 243.54,
+    "primary": [
+     "BCT_A5"
+    ]
+   },
+   "0.10": {
+    "T_C": 279.65,
+    "primary": []
+   }
+  },
+  "Ga2In2Sn96": {
+   "0.02": {
+    "T_C": 293.93,
+    "primary": [
+     "ZINCBLENDE_B3"
+    ]
+   },
+   "0.05": {
+    "T_C": 325.79,
+    "primary": [
+     "ZINCBLENDE_B3"
+    ]
+   },
+   "0.10": {
+    "T_C": 349.88,
+    "primary": [
+     "ZINCBLENDE_B3"
+    ]
+   }
+  },
+  "Ga5In5Sn90": {
+   "0.02": {
+    "T_C": 327.03,
+    "primary": [
+     "ZINCBLENDE_B3"
+    ]
+   },
+   "0.05": {
+    "T_C": 364.75,
+    "primary": [
+     "ZINCBLENDE_B3"
+    ]
+   },
+   "0.10": {
+    "T_C": 394.34,
+    "primary": [
+     "ZINCBLENDE_B3"
+    ]
+   }
+  }
+ },
+ "Sb_boiling_1atm_C": 1533.4,
+ "gas_at_700C_galinstan_2Sb": false
+}
