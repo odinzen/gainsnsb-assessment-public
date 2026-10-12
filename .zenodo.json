@@ -1,0 +1,29 @@
+{
+  "title": "Data and code for: Primary crystallization of III-V (Ga,In)Sb from low-melting Ga-In-Sn alloys: a thermodynamic assessment of the Ga-In-Sn-Sb system",
+  "upload_type": "dataset",
+  "version": "1.0.0",
+  "license": "cc-by-nc-4.0",
+  "description": "<p>Reproducibility package for the CALPHAD assessment of the Ga-In-Sn-Sb system submitted to the Journal of Alloys and Compounds (M. E. Bustamante, K. Lilova). It contains the thermodynamic database (GaInSnSb.tdb), the Bayesian optimization of the Ga-Sn liquid and the Ga-In-Sn ternary interaction with its Markov chain, the fitting, validation and figure scripts, the digitized and transcribed experimental datasets with their provenance, the results files from which every number in the paper is calculated, and the submitted figures.</p><p>Licenses by component: the database is CC BY-NC 4.0, and commercial use requires a license from Odinzen LLC; the code is MIT; the figures, data, results and Markov chain are CC BY 4.0. See README.md and databases/LICENSE.md.</p>",
+  "creators": [
+    {
+      "name": "Bustamante, Michael E.",
+      "affiliation": "Odinzen LLC, Houston, TX, United States",
+      "orcid": "0009-0009-9001-8151"
+    },
+    {
+      "name": "Lilova, Kristina",
+      "affiliation": "Navrotsky Eyring Center for Materials of the Universe, School of Molecular Sciences, Arizona State University, Tempe, AZ, USA",
+      "orcid": "0000-0002-9433-3310"
+    }
+  ],
+  "keywords": [
+    "CALPHAD",
+    "Ga-In-Sn-Sb",
+    "III-V compound semiconductors",
+    "(Ga,In)Sb solution growth",
+    "liquidus projection",
+    "Galinstan",
+    "antimony",
+    "Bayesian optimization"
+  ]
+}
