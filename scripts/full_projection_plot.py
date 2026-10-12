@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Plot the full-triangle Ga-In-Sn liquidus projection from full_projection.npz:
-primary-solidification fields (greyscale) + liquidus isotherms + experimental points + eutectic.
+primary-solidification fields (colored) + liquidus isotherms + experimental points + eutectic.
 Answers 'prove the overall liquidus topology'. House style, no baked caption. calphad env."""
 import os, numpy as np, warnings
 warnings.filterwarnings("ignore")
@@ -9,7 +9,8 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.tri as mtri
 from matplotlib.colors import ListedColormap
-from proj_common import tri_xy, augment_edges, draw_field_labels
+from proj_common import tri_xy, augment_edges, draw_field_labels, fill_fields
+from cites import cite
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "figures")
@@ -24,34 +25,33 @@ xGa, xIn, xSn, T, prim = xGa[m], xIn[m], xSn[m], T[m], prim[m]
 X, Y = tri_xy(xGa, xIn, xSn)  # a=Ga bottom-left, b=In top, c=Sn bottom-right
 tri = mtri.Triangulation(X, Y)  # isotherms + points on the raw data
 
-# primary-phase fields -> integer codes, greyscale fills with readable labels
+# primary-phase fields, colored, with readable labels
 label = {"ORTHORHOMBIC_GA": "(Ga)", "TETRAGONAL_A6": "(In)", "BCT_A5": r"($\beta$-Sn)",
          "BETA": r"$\beta$", "GAMMA": r"$\gamma$"}
 order = ["ORTHORHOMBIC_GA", "TETRAGONAL_A6", "BCT_A5", "BETA", "GAMMA"]
 present = [p for p in order if p in set(prim)]
-code = {p: i for i, p in enumerate(present)}
-greys = ["0.97", "0.88", "0.80", "0.70", "0.62"][:len(present)]
 
 # fill on an edge-augmented triangulation so the fields reach the frame
 Xf, Yf, primf = augment_edges(xGa, xIn, xSn, prim)
-Zf = np.array([code[p] for p in primf], dtype=float)
 trif = mtri.Triangulation(Xf, Yf)
 
 fig, ax = plt.subplots(figsize=(7.2, 6.4))
 fig.subplots_adjust(left=0.03, right=0.97, top=0.93, bottom=0.05)
-ax.tricontourf(trif, Zf, levels=np.arange(-0.5, len(present) + 0.5, 1), colors=greys)
+fill_fields(ax, trif, primf, present)
 cs = ax.tricontour(tri, T, levels=[15, 25, 50, 75, 100, 125, 150, 175, 200], colors="0.15", linewidths=0.8)
 ax.clabel(cs, fmt="%d", fontsize=8, inline=True)
 
 # experimental Evans-Prince liquidus points
 ep = np.load(os.path.join(HERE, "..", "bayesian", "fig3_points.npy"))
 ex, ey = tri_xy(ep[:, 0], ep[:, 1], ep[:, 2])
-ax.plot(ex, ey, "o", mfc="white", mec="0.0", mew=1.1, ms=4.5, ls="none")
+ax.plot(ex, ey, "o", mfc="white", mec="0.0", mew=1.1, ms=4.5, ls="none",
+        label="Liquidus, Evans and Prince " + cite("Evans-Prince"))
 # calculated ternary eutectic, from results/headline_numbers.json
 import json
 eu = json.load(open(os.path.join(HERE, "..", "results", "headline_numbers.json")))["GaInSn_eutectic"]["liquid"]
 eux, euy = tri_xy(eu["GA"], eu["IN"], eu["SN"])
-ax.plot(eux, euy, marker="o", ms=9, mfc="0.0", mec="0.0")
+ax.plot(eux, euy, marker="o", ms=9, mfc="0.0", mec="0.0", ls="none", label="Ternary eutectic, calculated")
+ax.legend(loc="upper right", bbox_to_anchor=(1.02, 1.0), fontsize=10, frameon=False, handletextpad=0.3)
 
 # primary-field labels: interior for large fields, leader lines for small ones
 draw_field_labels(ax, X, Y, prim, present, label,

@@ -9,6 +9,8 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 
+from cites import cite
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "figures", "Fig_gainsb_tielines.png")
 plt.rcParams.update({"font.family": "serif", "font.serif": ["DejaVu Serif", "Times New Roman"],
@@ -17,9 +19,10 @@ plt.rcParams.update({"font.family": "serif", "font.serif": ["DejaVu Serif", "Tim
 pts = np.array(json.load(open(os.path.join(HERE, "..", "results", "gainsb_validation.json")))["tieline_points"], float)
 fig, ax = plt.subplots(figsize=(5.2, 5.0))
 ax.plot([0, 1], [0, 1], color="0.4", lw=1.0)
-for T, mk, fc in [(400.0, "o", "white"), (500.0, "s", "0.35")]:
+for T, mk, fc, src in [(400.0, "o", "white", "Miki et al. " + cite("Liao")),
+                       (500.0, "s", "0.35", "Antypas " + cite("Antypas"))]:
     m = pts[:, 0] == T
-    ax.plot(pts[m, 1], pts[m, 2], mk, mfc=fc, mec="black", ms=6.5, mew=1.1, ls="none", label=f"{T:.0f} $^{{\\circ}}$C")
+    ax.plot(pts[m, 1], pts[m, 2], mk, mfc=fc, mec="black", ms=6.5, mew=1.1, ls="none", label=f"{T:.0f} $^{{\\circ}}$C, {src}")
 ax.set_xlim(0, 0.85); ax.set_ylim(0, 0.85); ax.set_aspect("equal")
 ax.set_xlabel("Measured InSb fraction in (Ga,In)Sb")
 ax.set_ylabel("Calculated InSb fraction in (Ga,In)Sb")

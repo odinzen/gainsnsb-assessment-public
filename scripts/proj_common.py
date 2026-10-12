@@ -2,7 +2,7 @@
 """Shared helpers for the ternary liquidus-projection panels.
 
 Two jobs the raw tricontourf can't do on its own:
-- fill the greyscale primary-phase fields all the way to the triangle frame
+- fill the primary-phase fields all the way to the triangle frame
   (tricontourf only fills the convex hull of the data, and the edge samples sit a
   grid-step inside, so a thin white strip is left against the frame),
 - place each field label in the fattest part of its own field, not at the raw
@@ -10,11 +10,29 @@ Two jobs the raw tricontourf can't do on its own:
 """
 import numpy as np
 
+# One color per primary phase, shared by all four projection panels so a phase reads the same everywhere.
+# Light enough that the black isotherms and field labels stay legible on every field.
+PHASE_COLOR = {
+    "ORTHORHOMBIC_GA": "#80b1d3", "TETRAGONAL_A6": "#b3de69", "BCT_A5": "#fdb462",
+    "BETA": "#bebada", "GAMMA": "#fccde5", "ZINCBLENDE_B3": "#ffffb3",
+    "SBSN": "#8dd3c7", "SB3SN4": "#fb8072", "RHOMBOHEDRAL_A7": "#bc80bd",
+}
+
 
 def tri_xy(a, b, c):
     """Barycentric (a bottom-left, b top, c bottom-right) -> cartesian."""
     s = a + b + c
     return 0.5 * (2 * c + b) / s, (np.sqrt(3) / 2) * b / s
+
+
+def fill_fields(ax, trif, primf, present):
+    """Fill each primary-phase field from its own indicator surface. Contouring one integer code per
+    phase would paint a false band of any phase whose code lies between two neighbours. The 0.3
+    threshold lets adjacent fields overlap slightly, so no white seam is left where three meet."""
+    for p in present:
+        ind = (primf == p).astype(float)
+        if ind.any():
+            ax.tricontourf(trif, ind, levels=[0.3, 1.5], colors=[PHASE_COLOR[p]])
 
 
 def augment_edges(A, B, C, prim, n=120):

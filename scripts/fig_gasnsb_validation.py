@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 from fast_eq import FastSystem
+from cites import cite
 import validate_gasnsb as V
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -27,13 +28,13 @@ rows = d["katayama1998_muGa_1073K"]["rows"]
 for y, mk, fc in [(0.75, "o", "white"), (0.5, "s", "0.6"), (0.25, "^", "0.15")]:
     r = [q for q in rows if abs(q["y"] - y) < 1e-6]
     a1.plot([q["meas_kJ"] for q in r], [q["calc_kJ"] for q in r], mk, mfc=fc, mec="black", ms=7, ls="none",
-            label=f"Sb:(Sb+Sn) = {y:.2f}")
+            label=f"Sb/(Sb+Sn) = {y:.2f}")
 lim = (-26, 0)
 a1.plot(lim, lim, color="0.4", lw=1.0)
 a1.set_xlim(lim); a1.set_ylim(lim); a1.set_aspect("equal")
 a1.set_xlabel(r"Measured $\mu_{\mathrm{Ga}} - {}^{\circ}G_{\mathrm{Ga}}^{\mathrm{liq}}$ (kJ/mol)")
 a1.set_ylabel(r"Calculated $\mu_{\mathrm{Ga}} - {}^{\circ}G_{\mathrm{Ga}}^{\mathrm{liq}}$ (kJ/mol)")
-a1.legend(frameon=False, loc="upper left", fontsize=10)
+a1.legend(frameon=False, loc="upper left", fontsize=10, title="Katayama et al. " + cite("Katayama-1998"), title_fontsize=10, alignment="left")
 a1.text(0.97, 0.03, "(a)", transform=a1.transAxes, ha="right", va="bottom", fontsize=13, fontweight="bold")
 
 xs = np.linspace(0.0, 0.97, 60)
@@ -44,9 +45,9 @@ for sysname, els, sol, ls in [("GaSb-Sn", ["GA", "SB", "SN"], V.SOL_GA, "-"), ("
     pf = d[f"gerdes1981_{sysname}_figure"]["points"]; pt = d[f"gerdes1981_{sysname}_table"]["points"]
     mk = "o" if sysname == "GaSb-Sn" else "s"
     a2.plot([p["x_Sn"] for p in pf], [p["meas_K"] - K for p in pf], mk, mfc="0.35", mec="black", ms=6, ls="none",
-            label=f"{sysname}, Gerdes and Predel figure")
+            label=f"{sysname}, Gerdes and Predel {cite('Gerdes-Predel')}, figure")
     a2.plot([p["x_Sn"] for p in pt], [p["meas_K"] - K for p in pt], mk, mfc="white", mec="0.35", ms=5, ls="none",
-            label=f"{sysname}, Gerdes and Predel table")
+            label=f"{sysname}, Gerdes and Predel {cite('Gerdes-Predel')}, table")
 a2.set_xlim(0, 1); a2.set_ylim(200, 750)
 a2.set_xlabel(r"Mole fraction Sn, $x_{\mathrm{Sn}}$")
 a2.set_ylabel(r"Liquidus temperature ($^{\circ}$C)")

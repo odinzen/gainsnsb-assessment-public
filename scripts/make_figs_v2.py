@@ -10,6 +10,8 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
+from cites import cite
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "figures")
 CHAIN = os.path.join(HERE, "..", "bayesian", "emcee_full_chain.npy")
@@ -63,7 +65,7 @@ def fig_activity():
     ax.set_xlabel("Mole fraction Ga, $x_{\\mathrm{Ga}}$")
     ax.set_ylabel("Activity")
     ax.set_xlim(0, 1); ax.set_ylim(0, 1)
-    ax.legend(title="filled $a_{\\mathrm{Ga}}$, open $a_{\\mathrm{Sn}}$; lines this work",
+    ax.legend(title="Katayama et al. " + cite("Katayama") + ", filled $a_{\\mathrm{Ga}}$, open $a_{\\mathrm{Sn}}$\nlines, present work",
               loc="lower center", fontsize=10, title_fontsize=9, frameon=False)
     for s in ax.spines.values():
         s.set_linewidth(1.1)
@@ -81,15 +83,39 @@ def fig_activity():
           "| a_Sn (Gibbs-Duhem derived, n=27) =", round(float(np.sqrt(np.mean(res[1::2] ** 2))), 4))
 
 
+# Pairs framed in red: the correlations quoted in the Supplementary text (index pairs into the chain).
+DISCUSSED_PAIRS = [(1, 0), (3, 2), (5, 4), (6, 0), (6, 4)]
+
+
 def fig_corner():
     import corner
     ch = np.load(CHAIN)
-    labels = ["$a_0$", "$b_0$", "$a_1$", "$b_1$", "$a_2$", "$b_2$", "$L_t$"]
-    fig = corner.corner(ch, labels=labels, quantiles=[0.16, 0.5, 0.84], show_titles=False,
-                        label_kwargs={"fontsize": 12}, color="0.25", hist_kwargs={"color": "0.25"})
-    fig.savefig(os.path.join(OUT, "Fig10_corner.png"), dpi=600)
+    n = ch.shape[1]
+    labels = ["$a_0$", "$b_0$", "$a_1$", "$b_1$", "$a_2$", "$b_2$", "${}^{0}L_{\\mathrm{t}}$"]
+    fig = plt.figure(figsize=(13, 13))
+    corner.corner(ch, fig=fig, labels=labels, bins=30, smooth=1.0, levels=(0.68, 0.95),
+                  plot_datapoints=False, plot_density=False, fill_contours=True,
+                  contour_kwargs={"colors": "#1f3f7a", "linewidths": 1.8},
+                  contourf_kwargs={"colors": ["white", "#c6d4ec", "#7f9fd0"]},
+                  hist_kwargs={"color": "0.2", "lw": 1.4}, max_n_ticks=3,
+                  label_kwargs={"fontsize": 22}, labelpad=0.08)
+    axes = np.array(fig.axes).reshape(n, n)
+    for i in range(n):
+        q16, q50, q84 = np.percentile(ch[:, i], [16, 50, 84])
+        ax = axes[i, i]
+        ax.axvline(q50, color="#b2182b", lw=1.8)
+        for q in (q16, q84):
+            ax.axvline(q, color="#b2182b", lw=1.5, ls=(0, (4, 2)))
+    for i, j in DISCUSSED_PAIRS:
+        for s in axes[i, j].spines.values():
+            s.set_edgecolor("#b2182b")
+            s.set_linewidth(2.6)
+    for ax in fig.axes:
+        ax.tick_params(labelsize=13)
+    fig.subplots_adjust(left=0.1, bottom=0.1, right=0.98, top=0.98, wspace=0.08, hspace=0.08)
+    fig.savefig(os.path.join(OUT, "FigS4_corner.png"), dpi=600)
     plt.close(fig)
-    print("Fig10 corner: chain", ch.shape)
+    print("FigS4 corner: chain", ch.shape)
 
 
 if __name__ == "__main__":

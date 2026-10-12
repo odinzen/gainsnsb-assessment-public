@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 import validate_insnsb_vassiliev as V
+from cites import cite
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "figures", "Fig_insnsb_vassiliev.png")
@@ -21,7 +22,8 @@ calc = np.array([r[5] for r in rows])
 fig, ax = plt.subplots(figsize=(5.2, 5.0))
 lim = (-21.5, -5.0)
 ax.plot(lim, lim, color="0.4", lw=1.0)
-ax.plot(meas, calc, "o", mfc="white", mec="black", ms=7, mew=1.2)
+ax.plot(meas, calc, "o", mfc="white", mec="black", ms=7, mew=1.2, label="Vassiliev et al. " + cite("Vassiliev"))
+ax.legend(frameon=False, loc="upper left")
 ax.set_xlim(lim); ax.set_ylim(lim)
 ax.set_xlabel(r"Measured $\mu_{\mathrm{In}} - {}^{\circ}G_{\mathrm{In}}^{\mathrm{liq}}$ (kJ/mol)")
 ax.set_ylabel(r"Calculated $\mu_{\mathrm{In}} - {}^{\circ}G_{\mathrm{In}}^{\mathrm{liq}}$ (kJ/mol)")

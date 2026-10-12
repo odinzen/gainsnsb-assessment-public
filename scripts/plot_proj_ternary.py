@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Plot a bounding-ternary liquidus projection from proj_<key>.npz: greyscale primary-phase fields
+"""Plot a bounding-ternary liquidus projection from proj_<key>.npz: colored primary-phase fields
 + liquidus isotherms. Usage: plot_proj_ternary.py <gasnsb|insnsb|gainsb>. House style, no baked
 caption. For gainsb it reads the refreshed scripts/gainsb_projection.npz (with the fitted term).
 calphad env."""
@@ -10,7 +10,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.tri as mtri
-from proj_common import tri_xy, augment_edges, draw_field_labels
+from proj_common import tri_xy, augment_edges, draw_field_labels, fill_fields
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "figures")
@@ -49,17 +49,14 @@ tri = mtri.Triangulation(X, Y)  # isotherms on the raw data (edge positions unto
 order = ["ORTHORHOMBIC_GA", "TETRAGONAL_A6", "BCT_A5", "BETA", "GAMMA",
          "ZINCBLENDE_B3", "SBSN", "SB3SN4", "RHOMBOHEDRAL_A7"]
 present = [p for p in order if p in set(prim)]
-code = {p: i for i, p in enumerate(present)}
-greys = ["0.97", "0.90", "0.83", "0.76", "0.69", "0.62", "0.55", "0.48", "0.42"][:len(present)]
 
 # fill on an edge-augmented triangulation so the fields reach the frame
 Xf, Yf, primf = augment_edges(A, Bv, C, prim)
-Zf = np.array([code[p] for p in primf], dtype=float)
 trif = mtri.Triangulation(Xf, Yf)
 
 fig, ax = plt.subplots(figsize=(7.2, 6.4))
 fig.subplots_adjust(left=0.03, right=0.97, top=0.93, bottom=0.05)
-ax.tricontourf(trif, Zf, levels=np.arange(-0.5, len(present) + 0.5, 1), colors=greys)
+fill_fields(ax, trif, primf, present)
 cs = ax.tricontour(tri, T, levels=c["iso"], colors="0.12", linewidths=0.8)
 ax.clabel(cs, fmt="%d", fontsize=8, inline=True)
 

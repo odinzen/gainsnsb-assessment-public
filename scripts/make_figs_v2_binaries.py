@@ -11,6 +11,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from pycalphad import Database, equilibrium, variables as v
+from cites import cite
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "figures")
@@ -51,10 +52,10 @@ def fig3_hmix():
     x = np.linspace(0.001, 0.999, 300)
     fig, ax = plt.subplots(figsize=(7.0, 5.2))
     fig.subplots_adjust(left=0.14, right=0.96, top=0.96, bottom=0.13)
-    ax.plot(x, hmix_curve(x, a_this), color="0.0", lw=1.8, label="this work")
-    ax.plot(x, hmix_curve(x, a_and), color="0.55", lw=1.8, ls=(0, (5, 2)), label="Anderson and Ansara (1992)")
+    ax.plot(x, hmix_curve(x, a_this), color="0.0", lw=1.8, label="present work")
+    ax.plot(x, hmix_curve(x, a_and), color="0.55", lw=1.8, ls=(0, (5, 2)), label="Anderson and Ansara " + cite("Anderson-Ansara"))
     ax.plot(ZIV_XSN, ZIV_H, "o", mfc="white", mec="0.0", mew=1.4, ms=7, ls="none",
-            label="Zivkovic et al. (2003)")
+            label="Zivkovic et al. " + cite("Zivkovic"))
     ax.axhline(0, color="0.8", lw=0.8, zorder=0)
     ax.set_xlabel("Mole fraction Sn, $x_{\\mathrm{Sn}}$")
     ax.set_ylabel("Excess enthalpy of mixing (J mol$^{-1}$)")
@@ -73,8 +74,8 @@ def fig5_gasn_pd():
     L_and = liquidus_curve(and92, "SN", sorted(and92.phases.keys()), xs, 505.0, 285.0)
     fig, ax = plt.subplots(figsize=(7.0, 5.2))
     fig.subplots_adjust(left=0.13, right=0.96, top=0.96, bottom=0.13)
-    ax.plot(xs, L_this, color="0.0", lw=1.8, label="this work")
-    ax.plot(xs, L_and, color="0.55", lw=1.8, ls=(0, (5, 2)), label="Anderson and Ansara (1992)")
+    ax.plot(xs, L_this, color="0.0", lw=1.8, label="present work")
+    ax.plot(xs, L_and, color="0.55", lw=1.8, ls=(0, (5, 2)), label="Anderson and Ansara " + cite("Anderson-Ansara"))
     ax.plot([0.085], [20.5], "s", mfc="white", mec="0.0", mew=1.4, ms=8, ls="none",
             label="experiment (eutectic)")
     ax.plot([0], [29.8], marker="_", ms=12, color="0.0")
@@ -94,7 +95,7 @@ def fig1_gain_pd():
     L_this = liquidus_curve(full, "IN", [p for p in sorted(full.phases.keys()) if p != "GAS"], xs, 445.0, 285.0)
     fig, ax = plt.subplots(figsize=(7.0, 5.2))
     fig.subplots_adjust(left=0.13, right=0.96, top=0.96, bottom=0.13)
-    ax.plot(xs, L_this, color="0.0", lw=1.8, label="this work")
+    ax.plot(xs, L_this, color="0.0", lw=1.8, label="present work")
     ax.plot([0], [29.8], marker="_", ms=12, color="0.0")
     ax.plot([1], [156.6], marker="_", ms=12, color="0.0")
     ax.text(0.5, 180, "L", fontsize=14, fontweight="bold", ha="center")

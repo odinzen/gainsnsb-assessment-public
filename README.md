@@ -2,7 +2,7 @@
 
 Reproducibility package for:
 
-**Primary crystallization of III-V (Ga,In)Sb from low-melting Ga-In-Sn melts: a thermodynamic assessment of the Ga-In-Sn-Sb system**
+**Primary crystallization of III-V (Ga,In)Sb from low-melting Ga-In-Sn alloys: a thermodynamic assessment of the Ga-In-Sn-Sb system**
 Michael E. Bustamante, Kristina Lilova (submitted to the *Journal of Alloys and Compounds*)
 
 Everything quoted in the paper is calculated from `databases/GaInSnSb.tdb` by the scripts here; the
@@ -28,11 +28,12 @@ numbers land in `results/*.json` and the figures in `figures/`.
 | `scripts/validate_insnsb_vassiliev.py` | In-Sn-Sb against Vassiliev et al. (Fig. 5) |
 | `scripts/validate_gasnsb.py` | Ga-Sn-Sb against Katayama et al. (1998) and Gerdes and Predel (1981), with the trial ternary term (Fig. 6) |
 | `scripts/fast_eq.py` | Fast liquidus and enthalpy evaluation from the database, used by the fits |
+| `scripts/cites.py`, `results/citation_numbers.json` | Main-text reference numbers used in the figure legends |
 | `scripts/fig_*.py`, `make_figs_v2*.py`, `*projection*.py`, `*sections*.py`, `make_montages.py` | Figures |
 | `data/` | Digitized and transcribed datasets with their provenance (Liao et al. 1982, Vassiliev et al. 2001, Katayama et al. 1998, Gerdes and Predel 1981). The `build_*.py` files record the digitizing; the source PDFs are not distributed. |
 | `results/` | Every calculated number quoted in the paper |
 | `tests/test_fit_matches_tdb.py` | Checks that the fitting code and the database give the same Gibbs energy for every phase and that the database carries the posterior medians |
-| `figures/Figure1.png` ... `Figure11.png`, `FigureS1.png` ... `FigureS3.png` | Figures as submitted |
+| `figures/Figure1.png` ... `Figure10.png`, `FigureS1.png` ... `FigureS4.png` | Figures as submitted (`FigureS4.png` is the posterior corner plot) |
 | `references.json` | The bibliography (CSL-JSON from Crossref) |
 
 ## Requirements

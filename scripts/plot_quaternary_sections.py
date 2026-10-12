@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Plot the quaternary Ga-In-Sn-Sb result as four constant-Sb sections over the Ga-In-Sn triangle
-(x_Sb = 0, 2, 5, 10 at%), each FILLED BY LIQUIDUS TEMPERATURE (shared greyscale) with isotherm
+(x_Sb = 0, 2, 5, 10 at%), each FILLED BY LIQUIDUS TEMPERATURE (shared blue-purple-red scale) with isotherm
 lines. Coloring by temperature (not primary phase) is the point: past ~2 at% Sb the (Ga,In)Sb
 zincblende is primary across the whole triangle, so the story is the liquidus surface lifting and
 the low-melting coolant pocket near the Galinstan corner vanishing. Reads qsect_sb*.npz. House
@@ -12,6 +12,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.tri as mtri
+from matplotlib.colors import LinearSegmentedColormap
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "figures")
@@ -22,6 +23,8 @@ LEVELS = ["00", "02", "05", "10"]
 # shared temperature scale across panels so the surface lifting is visually honest
 TMIN, TMAX = 0.0, 600.0
 FILL = np.arange(0, 601, 25)
+# blue (coolest) through purple to red (hottest), as requested in review; light enough for black isotherms
+CMAP = LinearSegmentedColormap.from_list("blue_purple_red", ["#4f8fd6", "#8c62b8", "#e0413a"])
 ISO = [50, 100, 200, 300, 400, 500]
 
 
@@ -42,7 +45,7 @@ for ax, tag in zip(axes.ravel(), LEVELS):
     X, Y = tri_xy(gGa, gIn, gSn)
     tri = mtri.Triangulation(X, Y)
     Tc = np.clip(T, TMIN, TMAX)
-    cf = ax.tricontourf(tri, Tc, levels=FILL, cmap="Greys", vmin=TMIN, vmax=TMAX, extend="max")
+    cf = ax.tricontourf(tri, Tc, levels=FILL, cmap=CMAP, vmin=TMIN, vmax=TMAX, extend="max")
     cs = ax.tricontour(tri, T, levels=ISO, colors="0.05", linewidths=0.7)
     ax.clabel(cs, fmt="%d", fontsize=7, inline=True)
     frame = np.array([tri_xy(1, 0, 0), tri_xy(0, 0, 1), tri_xy(0, 1, 0), tri_xy(1, 0, 0)])
@@ -54,7 +57,7 @@ for ax, tag in zip(axes.ravel(), LEVELS):
     ex, ey = tri_xy(0.76, 0.15, 0.09)
     ax.plot(ex, ey, marker="o", ms=7, mfc="none", mec="0.0", mew=1.4)
     # constant-Sb label in the upper-left, clear of the In apex
-    ax.text(0.0, 1.02, r"$x_{\mathrm{Sb}}$ = %g at%%" % round(xSb * 100),
+    ax.text(0.0, 1.02, r"$x_{\mathrm{Sb}}$ = %g at.%%" % round(xSb * 100),
             transform=ax.transAxes, ha="left", va="bottom", fontsize=13, fontweight="bold")
     ax.set_xlim(-0.12, 1.12); ax.set_ylim(-0.14, np.sqrt(3) / 2 + 0.12)
     ax.set_aspect("equal"); ax.axis("off")
